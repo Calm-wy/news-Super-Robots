@@ -65,12 +65,15 @@ def _build_system_prompt() -> list[dict]:
     static_block = f"""You are an expert autonomous-driving industry analyst.
 
 You will be given a single news article (title + excerpt). Your job:
-1. Write a concise 2-3 sentence Chinese (简体中文) summary — factual, no fluff.
-2. Identify which of the tracked companies the article is about.
-3. Classify into one of: announcement, funding, incident, launch, layoff, hiring,
+1. Translate the title into concise, natural 简体中文 (Simplified Chinese). Keep well-known
+   brand names in original form (Waymo, Cruise, Zoox, Tesla, Apollo Go 等英文品牌保留原文).
+   If the original title is already 中文, use it as-is (but convert any 繁體 → 简体).
+2. Write a concise 2-3 sentence 简体中文 summary — factual, no marketing fluff, third-person.
+3. Identify which of the tracked companies the article is about.
+4. Classify into one of: announcement, funding, incident, launch, layoff, hiring,
    partnership, regulation, product, opinion, other.
-4. Score importance 1-5 (1 = trivial, 5 = major industry news).
-5. Detect sentiment: positive, neutral, negative.
+5. Score importance 1-5 (1 = trivial, 5 = major industry news).
+6. Detect sentiment: positive, neutral, negative.
 
 Tracked companies:
 {company_block}
@@ -80,7 +83,8 @@ Event categories (used for boosted importance):
 
 Rules:
 - If title/excerpt only mentions a company in passing, do not add it.
-- Chinese summary must be neutral, third-person, no marketing tone, 简体中文 only.
+- ALL Chinese output MUST be 简体中文 (Simplified Chinese). Never output 繁體字.
+- Summary must be neutral, third-person, factual — not a marketing headline.
 - If article is off-topic (not L4/robotaxi related), set importance=1 and category="other".
 """
     return [
@@ -98,9 +102,13 @@ ENRICH_TOOL = {
     "input_schema": {
         "type": "object",
         "properties": {
+            "title_zh": {
+                "type": "string",
+                "description": "简体中文 title (translated from original). Keep brand names in original form.",
+            },
             "summary_zh": {
                 "type": "string",
-                "description": "2-3 sentence Chinese (traditional) summary of the article.",
+                "description": "2-3 sentence 简体中文 summary of the article.",
             },
             "companies": {
                 "type": "array",
@@ -121,7 +129,7 @@ ENRICH_TOOL = {
             },
             "sentiment": {"type": "string", "enum": ["positive", "neutral", "negative"]},
         },
-        "required": ["summary_zh", "companies", "category", "importance", "sentiment"],
+        "required": ["title_zh", "summary_zh", "companies", "category", "importance", "sentiment"],
     },
 }
 
@@ -164,7 +172,8 @@ def enrich_items(items: list[dict]) -> list[dict]:
     if client is None:
         log.warning("ANTHROPIC_API_KEY not set. Returning items without enrichment.")
         for it in items:
-            it.setdefault("summary_zh", it.get("excerpt", "")[:200])
+            it.setdefault("title_zh", "")
+            it.setdefault("summary_zh", "")
             it.setdefault("category", "other")
             it.setdefault("importance", 2)
             it.setdefault("sentiment", "neutral")
@@ -185,7 +194,8 @@ def enrich_items(items: list[dict]) -> list[dict]:
         except APIError as e:
             log.warning("API error on item %d (%s): %s", i, item["url"], e)
             analysis = {
-                "summary_zh": item.get("excerpt", "")[:200],
+                "title_zh": "",
+                "summary_zh": "",
                 "companies": item.get("company_ids", []),
                 "category": "other",
                 "importance": 2,
@@ -195,6 +205,7 @@ def enrich_items(items: list[dict]) -> list[dict]:
         # merge, preferring existing company_ids if regex already found them
         merged_companies = sorted(set(item.get("company_ids", []) + analysis.get("companies", [])))
         item.update({
+            "title_zh": analysis.get("title_zh", ""),
             "summary_zh": analysis["summary_zh"],
             "category_llm": analysis["category"],
             "importance": int(analysis["importance"]),

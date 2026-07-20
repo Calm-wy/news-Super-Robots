@@ -71,7 +71,7 @@ document.addEventListener('alpine:init', () => {
         }
         if ((it.importance || 0) < this.minImportance) return false;
         if (q) {
-          const hay = (it.title + ' ' + (it.summary_zh || '') + ' ' + (it.excerpt || '')).toLowerCase();
+          const hay = ((it.title_zh || '') + ' ' + it.title + ' ' + (it.summary_zh || '') + ' ' + (it.excerpt || '')).toLowerCase();
           if (!hay.includes(q)) return false;
         }
         return true;
@@ -106,6 +106,23 @@ document.addEventListener('alpine:init', () => {
 
     stars(n) { return '★'.repeat(n) + '☆'.repeat(Math.max(0, 5 - n)); },
 
+    displayTitle(it) {
+      return (it.title_zh && it.title_zh.trim()) ? it.title_zh : it.title;
+    },
+
+    displaySummary(it) {
+      return (it.summary_zh && it.summary_zh.trim()) ? it.summary_zh : (it.excerpt || '');
+    },
+
+    fmtGeneratedAt(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      // 转为北京时间 (UTC+8) 显示
+      const bj = new Date(d.getTime() + 8 * 3600 * 1000);
+      const s = bj.toISOString().slice(0, 16).replace('T', ' ');
+      return '更新于 ' + s + ' 北京时间';
+    },
+
     fmtTime(iso) {
       if (!iso) return '';
       const d = new Date(iso);
@@ -137,7 +154,7 @@ document.addEventListener('alpine:init', () => {
 <header class="border-b border-slate-200 dark:border-slate-800 sticky top-0 backdrop-blur bg-white/70 dark:bg-slate-950/70 z-10">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
     <h1 class="text-xl font-bold">L4 Robotaxi <span class="text-blue-500">看板</span></h1>
-    <div class="text-xs text-slate-500 dark:text-slate-400" x-text="generated_at ? '更新于 ' + generated_at.slice(0,16).replace('T',' ') + ' UTC' : ''"></div>
+    <div class="text-xs text-slate-500 dark:text-slate-400" x-text="fmtGeneratedAt(generated_at)"></div>
     <div class="flex-1"></div>
     <input type="search" x-model="q" placeholder="搜索标题 / 摘要..." class="hidden md:block px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm w-64" />
     <button @click="toggleDark" class="text-sm px-3 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">
@@ -153,8 +170,8 @@ document.addEventListener('alpine:init', () => {
     <template x-if="dailyLead()">
       <section class="p-4 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow">
         <div class="text-xs uppercase tracking-wider opacity-80">今日焦点</div>
-        <a :href="dailyLead().url" target="_blank" rel="noopener" class="block mt-1 text-lg font-semibold leading-tight hover:underline" x-text="dailyLead().title"></a>
-        <p class="mt-2 text-sm opacity-95" x-text="dailyLead().summary_zh"></p>
+        <a :href="dailyLead().url" target="_blank" rel="noopener" class="block mt-1 text-lg font-semibold leading-tight hover:underline" x-text="displayTitle(dailyLead())"></a>
+        <p class="mt-2 text-sm opacity-95" x-text="displaySummary(dailyLead())"></p>
       </section>
     </template>
 
@@ -251,8 +268,11 @@ document.addEventListener('alpine:init', () => {
                       x-text="categoryLabel(it.category_llm || it.category)"></span>
                 <span class="text-xs text-amber-500" x-text="stars(it.importance || 0)"></span>
               </div>
-              <a :href="it.url" target="_blank" rel="noopener" class="block text-base font-semibold leading-snug hover:text-blue-500" x-text="it.title"></a>
-              <p class="mt-1.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed" x-text="it.summary_zh || it.excerpt"></p>
+              <a :href="it.url" target="_blank" rel="noopener" class="block text-base font-semibold leading-snug hover:text-blue-500" x-text="displayTitle(it)"></a>
+              <p class="mt-1.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed" x-text="displaySummary(it)"></p>
+              <template x-if="it.title_zh && it.title_zh.trim() && it.title_zh !== it.title">
+                <p class="mt-1 text-xs text-slate-400 dark:text-slate-500 italic leading-snug" x-text="'原题: ' + it.title"></p>
+              </template>
               <div class="mt-2 text-xs text-slate-500 flex items-center gap-3">
                 <span x-text="it.source"></span>
                 <span x-text="fmtTime(it.published_at)"></span>
