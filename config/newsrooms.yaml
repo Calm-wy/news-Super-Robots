@@ -1,0 +1,85 @@
+# Config-driven scraping for company newsrooms without RSS.
+# When a site's HTML changes, only edit the selectors — no code changes needed.
+# Use browser DevTools to find item_selector (the repeating card container)
+# and the link/title/date selectors within it.
+
+sites:
+  - company: pony-ai
+    name: Pony.ai News
+    url: https://pony.ai/news
+    lang: en
+    weight: 5
+    item_selector: article, .news-item, .post-item
+    link_selector: a
+    title_selector: h2, h3, .title
+    date_selector: time
+    limit: 15
+
+  - company: weride
+    name: WeRide Newsroom
+    url: https://www.weride.ai/newsroom
+    lang: en
+    weight: 5
+    item_selector: article, .news-card, .post
+    link_selector: a
+    title_selector: h2, h3, .title
+    date_selector: time
+    limit: 15
+
+  - company: cruise
+    name: Cruise News
+    url: https://www.getcruise.com/news/
+    lang: en
+    weight: 5
+    item_selector: article, .card, .post-preview
+    link_selector: a
+    title_selector: h2, h3, .card-title
+    date_selector: time
+    limit: 15
+
+  - company: zoox
+    name: Zoox Journal
+    url: https://zoox.com/journal
+    lang: en
+    weight: 5
+    item_selector: article, .journal-item
+    link_selector: a
+    title_selector: h2, h3
+    date_selector: time
+    limit: 15
+
+  - company: motional
+    name: Motional News
+    url: https://motional.com/news
+    lang: en
+    weight: 5
+    item_selector: article, .card, .news-item
+    link_selector: a
+    title_selector: h2, h3, .title
+    date_selector: time
+    limit: 15
+
+  - company: nuro
+    name: Nuro Press
+    url: https://www.nuro.ai/press
+    lang: en
+    weight: 5
+    item_selector: article, .press-item, .card
+    link_selector: a
+    title_selector: h2, h3
+    date_selector: time
+    limit: 15
+
+  - company: wayve
+    name: Wayve Blog
+    url: https://wayve.ai/blog/
+    lang: en
+    weight: 5
+    item_selector: article, .post-card
+    link_selector: a
+    title_selector: h2, h3, .post-title
+    date_selector: time
+    limit: 15
+
+# 註：中國廠商大多用微信公眾號發布，官網無穩定新聞頁。
+# 可透過 RSSHub 公共實例（例如 rsshub.app/wechat）加到 feeds.yaml。

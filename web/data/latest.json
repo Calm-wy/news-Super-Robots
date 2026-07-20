@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-20T08:17:47.754633+00:00",
+  "count": 3,
+  "items": [
+    {
+      "id": "sample1",
+      "title": "[示例] Waymo 宣布擴大鳳凰城 Robotaxi 覆蓋範圍",
+      "url": "https://waymo.com/",
+      "source": "Waymo Blog (sample)",
+      "category": "official",
+      "category_llm": "launch",
+      "lang": "en",
+      "published_at": "2026-07-20T06:17:47.754633+00:00",
+      "excerpt": "Waymo announced expanded service area...",
+      "summary_zh": "Waymo 宣布將鳳凰城 Robotaxi 服務區域擴大 15%，覆蓋人口首次超過百萬。此舉是繼舊金山之後最大規模的擴張。",
+      "company_ids": [
+        "waymo"
+      ],
+      "importance": 4,
+      "sentiment": "positive",
+      "source_weight": 5
+    },
+    {
+      "id": "sample2",
+      "title": "[示例] 蘿蔔快跑北京訂單量單月突破 100 萬",
+      "url": "https://www.apollo.auto/",
+      "source": "36 氪 (sample)",
+      "category": "tech_media",
+      "category_llm": "launch",
+      "lang": "zh",
+      "published_at": "2026-07-20T00:17:47.754633+00:00",
+      "excerpt": "百度 Apollo 蘿蔔快跑在北京地區 6 月訂單...",
+      "summary_zh": "百度 Apollo 蘿蔔快跑 6 月在北京單月訂單首次突破 100 萬單，環比增長 40%。目前已在 11 個城市開放無人化運營。",
+      "company_ids": [
+        "baidu-apollo"
+      ],
+      "importance": 4,
+      "sentiment": "positive",
+      "source_weight": 4
+    },
+    {
+      "id": "sample3",
+      "title": "[示例] 小馬智行完成 3 億美元 D 輪融資",
+      "url": "https://pony.ai/",
+      "source": "TechCrunch (sample)",
+      "category": "tech_media",
+      "category_llm": "funding",
+      "lang": "en",
+      "published_at": "2026-07-19T08:17:47.754633+00:00",
+      "excerpt": "Pony.ai closed a $300M Series D...",
+      "summary_zh": "小馬智行完成 3 億美元 D 輪融資，投後估值達 85 億美元。本輪資金主要用於車隊擴充和海外市場拓展。",
+      "company_ids": [
+        "pony-ai"
+      ],
+      "importance": 5,
+      "sentiment": "positive",
+      "source_weight": 4
+    }
+  ]
+}

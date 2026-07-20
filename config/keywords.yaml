@@ -1,0 +1,51 @@
+# 關鍵詞：文章匹配到才會被納入 pipeline
+# category_boost: 命中重要類別時，最終 importance 分數加成
+
+primary_keywords:
+  zh:
+    - Robotaxi
+    - 自動駕駛
+    - 自动驾驶
+    - 無人駕駛
+    - 无人驾驶
+    - L4
+    - L4 級
+    - 自動駕駛出租車
+    - 自动驾驶出租车
+    - 無人出租車
+    - 无人出租车
+    - 自動代客泊車
+  en:
+    - robotaxi
+    - robo-taxi
+    - self-driving
+    - autonomous vehicle
+    - autonomous driving
+    - driverless
+    - L4 autonomy
+    - Level 4 autonomy
+    - AV fleet
+
+# 事件類關鍵詞 → 若命中則 importance +1，並會觸發 Sonnet 深度摘要
+category_boost:
+  funding:
+    weight: 2
+    keywords: [融資, 融资, funding, Series, IPO, 上市, 估值, valuation, raise, 投資, 投资]
+  incident:
+    weight: 2
+    keywords: [事故, accident, crash, collision, injured, 傷者, recall, 召回, investigation, 調查, 调查]
+  launch:
+    weight: 2
+    keywords: [推出, 上線, 上线, launch, deploy, 部署, 落地, expand, 擴張, 扩张, city, 城市, 開放, 开放]
+  layoff:
+    weight: 1
+    keywords: [裁員, 裁员, layoff, 重組, 重组, restructure, shutdown, 關停, 关停]
+  hiring:
+    weight: 1
+    keywords: [招聘, 招募, hiring, job opening, 職缺, 职缺]
+  partnership:
+    weight: 1
+    keywords: [合作, 戰略合作, 战略合作, partnership, collaborate, joint venture, JV]
+  regulation:
+    weight: 1
+    keywords: [政策, 法規, 法规, regulation, permit, 牌照, approval, license, 立法]

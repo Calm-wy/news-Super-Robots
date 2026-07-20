@@ -1,0 +1,114 @@
+[
+  {
+    "id": "baidu-apollo",
+    "name_zh": "百度 Apollo / 蘿蔔快跑",
+    "name_en": "Baidu Apollo / Apollo Go",
+    "region": "CN",
+    "weight": 5
+  },
+  {
+    "id": "pony-ai",
+    "name_zh": "小馬智行",
+    "name_en": "Pony.ai",
+    "region": "CN",
+    "weight": 5
+  },
+  {
+    "id": "weride",
+    "name_zh": "文遠知行",
+    "name_en": "WeRide",
+    "region": "CN",
+    "weight": 5
+  },
+  {
+    "id": "didi-ad",
+    "name_zh": "滴滴自動駕駛",
+    "name_en": "DiDi Autonomous Driving",
+    "region": "CN",
+    "weight": 4
+  },
+  {
+    "id": "deeproute",
+    "name_zh": "元戎啟行",
+    "name_en": "DeepRoute.ai",
+    "region": "CN",
+    "weight": 3
+  },
+  {
+    "id": "qcraft",
+    "name_zh": "輕舟智航",
+    "name_en": "QCraft",
+    "region": "CN",
+    "weight": 3
+  },
+  {
+    "id": "idriverplus",
+    "name_zh": "智行者",
+    "name_en": "Idriverplus",
+    "region": "CN",
+    "weight": 2
+  },
+  {
+    "id": "caocao",
+    "name_zh": "曹操出行",
+    "name_en": "Caocao Mobility",
+    "region": "CN",
+    "weight": 2
+  },
+  {
+    "id": "waymo",
+    "name_zh": "Waymo",
+    "name_en": "Waymo",
+    "region": "US",
+    "weight": 5
+  },
+  {
+    "id": "cruise",
+    "name_zh": "Cruise",
+    "name_en": "Cruise",
+    "region": "US",
+    "weight": 4
+  },
+  {
+    "id": "zoox",
+    "name_zh": "Zoox",
+    "name_en": "Zoox",
+    "region": "US",
+    "weight": 4
+  },
+  {
+    "id": "motional",
+    "name_zh": "Motional",
+    "name_en": "Motional",
+    "region": "US",
+    "weight": 3
+  },
+  {
+    "id": "aurora",
+    "name_zh": "Aurora",
+    "name_en": "Aurora Innovation",
+    "region": "US",
+    "weight": 4
+  },
+  {
+    "id": "tesla-robotaxi",
+    "name_zh": "Tesla Robotaxi",
+    "name_en": "Tesla Robotaxi",
+    "region": "US",
+    "weight": 5
+  },
+  {
+    "id": "nuro",
+    "name_zh": "Nuro",
+    "name_en": "Nuro",
+    "region": "US",
+    "weight": 3
+  },
+  {
+    "id": "wayve",
+    "name_zh": "Wayve",
+    "name_en": "Wayve",
+    "region": "UK",
+    "weight": 3
+  }
+]

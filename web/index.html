@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" x-data="dashboard" x-init="init()" :class="{ 'dark': dark }">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>L4 Robotaxi 每日看板</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+<script>
+  tailwind.config = { darkMode: 'class' };
+</script>
+<style>
+  [x-cloak] { display: none !important; }
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: #64748b; border-radius: 3px; }
+</style>
+<script>
+document.addEventListener('alpine:init', () => {
+  Alpine.data('dashboard', () => ({
+    dark: true,
+    loading: true,
+    error: null,
+    generated_at: '',
+    items: [],
+    companies: [],
+    // filters
+    q: '',
+    activeCompany: null,
+    activeCategory: null,
+    activeRegion: null,
+    minImportance: 1,
+
+    async init() {
+      const saved = localStorage.getItem('rt-dark');
+      if (saved !== null) this.dark = saved === '1';
+      try {
+        const [dataR, compR] = await Promise.all([
+          fetch('data/latest.json').then(r => r.json()),
+          fetch('data/companies.json').then(r => r.json()),
+        ]);
+        this.generated_at = dataR.generated_at;
+        this.items = dataR.items;
+        this.companies = compR;
+      } catch (e) {
+        this.error = String(e);
+      } finally {
+        this.loading = false;
+      }
+    },
+
+    toggleDark() {
+      this.dark = !this.dark;
+      localStorage.setItem('rt-dark', this.dark ? '1' : '0');
+    },
+
+    companyMap() {
+      const m = {};
+      for (const c of this.companies) m[c.id] = c;
+      return m;
+    },
+
+    filtered() {
+      const map = this.companyMap();
+      const q = this.q.trim().toLowerCase();
+      return this.items.filter(it => {
+        if (this.activeCompany && !(it.company_ids || []).includes(this.activeCompany)) return false;
+        if (this.activeCategory && it.category_llm !== this.activeCategory && it.category !== this.activeCategory) return false;
+        if (this.activeRegion) {
+          const regions = new Set((it.company_ids || []).map(id => map[id]?.region).filter(Boolean));
+          if (!regions.has(this.activeRegion)) return false;
+        }
+        if ((it.importance || 0) < this.minImportance) return false;
+        if (q) {
+          const hay = (it.title + ' ' + (it.summary_zh || '') + ' ' + (it.excerpt || '')).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    },
+
+    // count per company for the hot chart
+    hotList() {
+      const counts = {};
+      for (const it of this.filtered()) {
+        for (const cid of (it.company_ids || [])) {
+          counts[cid] = (counts[cid] || 0) + 1;
+        }
+      }
+      const map = this.companyMap();
+      return Object.entries(counts)
+        .map(([id, n]) => ({ id, n, name: map[id]?.name_zh || id, region: map[id]?.region }))
+        .sort((a, b) => b.n - a.n)
+        .slice(0, 10);
+    },
+
+    hotMax() {
+      const l = this.hotList();
+      return l.length ? l[0].n : 1;
+    },
+
+    dailyLead() {
+      // First item with importance >= 4 becomes the "今日一句話"
+      const top = this.filtered().find(x => (x.importance || 0) >= 4);
+      return top || this.filtered()[0] || null;
+    },
+
+    stars(n) { return '★'.repeat(n) + '☆'.repeat(Math.max(0, 5 - n)); },
+
+    fmtTime(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      const diffH = (Date.now() - d.getTime()) / 3.6e6;
+      if (diffH < 24) return Math.max(1, Math.round(diffH)) + ' 小時前';
+      return d.toISOString().slice(0, 10);
+    },
+
+    categoryLabel(k) {
+      return {
+        announcement:'公告', funding:'融資', incident:'事故', launch:'落地',
+        layoff:'裁員', hiring:'招聘', partnership:'合作', regulation:'政策',
+        product:'產品', opinion:'觀點', other:'其他',
+        official:'官方', tech_media:'媒體', social:'社交', capital:'資本',
+      }[k] || k;
+    },
+
+    reset() {
+      this.q = ''; this.activeCompany = null; this.activeCategory = null;
+      this.activeRegion = null; this.minImportance = 1;
+    },
+  }));
+});
+</script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen">
+
+<!-- Header -->
+<header class="border-b border-slate-200 dark:border-slate-800 sticky top-0 backdrop-blur bg-white/70 dark:bg-slate-950/70 z-10">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
+    <h1 class="text-xl font-bold">L4 Robotaxi <span class="text-blue-500">看板</span></h1>
+    <div class="text-xs text-slate-500 dark:text-slate-400" x-text="generated_at ? '更新於 ' + generated_at.slice(0,16).replace('T',' ') + ' UTC' : ''"></div>
+    <div class="flex-1"></div>
+    <input type="search" x-model="q" placeholder="搜索標題 / 摘要..." class="hidden md:block px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm w-64" />
+    <button @click="toggleDark" class="text-sm px-3 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">
+      <span x-text="dark ? '☀️ 淺色' : '🌙 深色'"></span>
+    </button>
+  </div>
+</header>
+
+<div class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-4 gap-6" x-cloak>
+  <!-- Sidebar -->
+  <aside class="lg:col-span-1 space-y-6">
+    <!-- Today's headline -->
+    <template x-if="dailyLead()">
+      <section class="p-4 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow">
+        <div class="text-xs uppercase tracking-wider opacity-80">今日焦點</div>
+        <a :href="dailyLead().url" target="_blank" rel="noopener" class="block mt-1 text-lg font-semibold leading-tight hover:underline" x-text="dailyLead().title"></a>
+        <p class="mt-2 text-sm opacity-95" x-text="dailyLead().summary_zh"></p>
+      </section>
+    </template>
+
+    <!-- Filters -->
+    <section class="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="font-semibold">篩選</h2>
+        <button @click="reset()" class="text-xs text-blue-500 hover:underline">重置</button>
+      </div>
+      <div class="md:hidden mb-3">
+        <input type="search" x-model="q" placeholder="搜索..." class="w-full px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm" />
+      </div>
+      <div class="mb-3">
+        <div class="text-xs text-slate-500 mb-1">地區</div>
+        <div class="flex flex-wrap gap-1">
+          <template x-for="r in ['CN','US','UK']" :key="r">
+            <button @click="activeRegion = activeRegion === r ? null : r"
+              :class="activeRegion === r ? 'bg-blue-500 text-white' : 'bg-slate-100 dark:bg-slate-800'"
+              class="text-xs px-2 py-1 rounded" x-text="r"></button>
+          </template>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="text-xs text-slate-500 mb-1">類型</div>
+        <div class="flex flex-wrap gap-1">
+          <template x-for="c in ['funding','launch','incident','partnership','regulation','announcement','product']" :key="c">
+            <button @click="activeCategory = activeCategory === c ? null : c"
+              :class="activeCategory === c ? 'bg-blue-500 text-white' : 'bg-slate-100 dark:bg-slate-800'"
+              class="text-xs px-2 py-1 rounded" x-text="categoryLabel(c)"></button>
+          </template>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="text-xs text-slate-500 mb-1">重要度 ≥ <span x-text="minImportance"></span></div>
+        <input type="range" min="1" max="5" x-model.number="minImportance" class="w-full" />
+      </div>
+      <div>
+        <div class="text-xs text-slate-500 mb-1">廠商</div>
+        <div class="flex flex-wrap gap-1 max-h-56 overflow-y-auto scrollbar-thin">
+          <template x-for="c in companies" :key="c.id">
+            <button @click="activeCompany = activeCompany === c.id ? null : c.id"
+              :class="activeCompany === c.id ? 'bg-blue-500 text-white' : 'bg-slate-100 dark:bg-slate-800'"
+              class="text-xs px-2 py-1 rounded" x-text="c.name_zh"></button>
+          </template>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hot chart -->
+    <section class="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+      <h2 class="font-semibold mb-3">近期熱度 <span class="text-xs text-slate-500">(按廠商提及)</span></h2>
+      <div class="space-y-1.5">
+        <template x-for="c in hotList()" :key="c.id">
+          <div>
+            <div class="flex justify-between text-xs mb-0.5">
+              <span x-text="c.name"></span>
+              <span class="text-slate-500" x-text="c.n"></span>
+            </div>
+            <div class="h-1.5 bg-slate-100 dark:bg-slate-800 rounded">
+              <div class="h-full bg-blue-500 rounded" :style="`width: ${(c.n / hotMax() * 100).toFixed(1)}%`"></div>
+            </div>
+          </div>
+        </template>
+        <template x-if="hotList().length === 0">
+          <div class="text-xs text-slate-500">暫無數據</div>
+        </template>
+      </div>
+    </section>
+  </aside>
+
+  <!-- Main feed -->
+  <main class="lg:col-span-3">
+    <div class="mb-3 text-sm text-slate-500 dark:text-slate-400">
+      共 <span x-text="filtered().length"></span> 則
+      <template x-if="items.length !== filtered().length">
+        <span class="text-slate-400"> / 全部 <span x-text="items.length"></span></span>
+      </template>
+    </div>
+
+    <div x-show="loading" class="text-center py-16 text-slate-500">載入中…</div>
+    <div x-show="error" class="text-center py-16 text-red-500" x-text="error"></div>
+
+    <ul class="space-y-3" x-show="!loading && !error">
+      <template x-for="it in filtered()" :key="it.id">
+        <li class="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-blue-400 dark:hover:border-blue-500 transition">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex flex-wrap items-center gap-1.5 mb-1.5">
+                <template x-for="cid in (it.company_ids || [])" :key="cid">
+                  <span class="text-xs px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300"
+                        x-text="companyMap()[cid]?.name_zh || cid"></span>
+                </template>
+                <span class="text-xs px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400"
+                      x-text="categoryLabel(it.category_llm || it.category)"></span>
+                <span class="text-xs text-amber-500" x-text="stars(it.importance || 0)"></span>
+              </div>
+              <a :href="it.url" target="_blank" rel="noopener" class="block text-base font-semibold leading-snug hover:text-blue-500" x-text="it.title"></a>
+              <p class="mt-1.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed" x-text="it.summary_zh || it.excerpt"></p>
+              <div class="mt-2 text-xs text-slate-500 flex items-center gap-3">
+                <span x-text="it.source"></span>
+                <span x-text="fmtTime(it.published_at)"></span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </template>
+      <template x-if="!loading && filtered().length === 0">
+        <li class="text-center py-16 text-slate-500">沒有符合條件的新聞</li>
+      </template>
+    </ul>
+  </main>
+</div>
+
+<footer class="max-w-7xl mx-auto px-4 py-8 text-xs text-slate-500 dark:text-slate-500 border-t border-slate-200 dark:border-slate-800 mt-8">
+  資料由 GitHub Actions 每日 08:15（北京時間）自動抓取整理，AI 摘要由 Anthropic Claude 生成。原文版權歸各媒體所有。
+</footer>
+
+</body>
+</html>
