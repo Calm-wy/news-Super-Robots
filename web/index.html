@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant" x-data="dashboard" x-init="init()" :class="{ 'dark': dark }">
+<html lang="zh-Hans" x-data="dashboard" x-init="init()" :class="{ 'dark': dark }">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -110,16 +110,16 @@ document.addEventListener('alpine:init', () => {
       if (!iso) return '';
       const d = new Date(iso);
       const diffH = (Date.now() - d.getTime()) / 3.6e6;
-      if (diffH < 24) return Math.max(1, Math.round(diffH)) + ' 小時前';
+      if (diffH < 24) return Math.max(1, Math.round(diffH)) + ' 小时前';
       return d.toISOString().slice(0, 10);
     },
 
     categoryLabel(k) {
       return {
-        announcement:'公告', funding:'融資', incident:'事故', launch:'落地',
-        layoff:'裁員', hiring:'招聘', partnership:'合作', regulation:'政策',
-        product:'產品', opinion:'觀點', other:'其他',
-        official:'官方', tech_media:'媒體', social:'社交', capital:'資本',
+        announcement:'公告', funding:'融资', incident:'事故', launch:'落地',
+        layoff:'裁员', hiring:'招聘', partnership:'合作', regulation:'政策',
+        product:'产品', opinion:'观点', other:'其他',
+        official:'官方', tech_media:'媒体', social:'社交', capital:'资本',
       }[k] || k;
     },
 
@@ -137,11 +137,11 @@ document.addEventListener('alpine:init', () => {
 <header class="border-b border-slate-200 dark:border-slate-800 sticky top-0 backdrop-blur bg-white/70 dark:bg-slate-950/70 z-10">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
     <h1 class="text-xl font-bold">L4 Robotaxi <span class="text-blue-500">看板</span></h1>
-    <div class="text-xs text-slate-500 dark:text-slate-400" x-text="generated_at ? '更新於 ' + generated_at.slice(0,16).replace('T',' ') + ' UTC' : ''"></div>
+    <div class="text-xs text-slate-500 dark:text-slate-400" x-text="generated_at ? '更新于 ' + generated_at.slice(0,16).replace('T',' ') + ' UTC' : ''"></div>
     <div class="flex-1"></div>
-    <input type="search" x-model="q" placeholder="搜索標題 / 摘要..." class="hidden md:block px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm w-64" />
+    <input type="search" x-model="q" placeholder="搜索标题 / 摘要..." class="hidden md:block px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm w-64" />
     <button @click="toggleDark" class="text-sm px-3 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">
-      <span x-text="dark ? '☀️ 淺色' : '🌙 深色'"></span>
+      <span x-text="dark ? '☀️ 浅色' : '🌙 深色'"></span>
     </button>
   </div>
 </header>
@@ -152,7 +152,7 @@ document.addEventListener('alpine:init', () => {
     <!-- Today's headline -->
     <template x-if="dailyLead()">
       <section class="p-4 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow">
-        <div class="text-xs uppercase tracking-wider opacity-80">今日焦點</div>
+        <div class="text-xs uppercase tracking-wider opacity-80">今日焦点</div>
         <a :href="dailyLead().url" target="_blank" rel="noopener" class="block mt-1 text-lg font-semibold leading-tight hover:underline" x-text="dailyLead().title"></a>
         <p class="mt-2 text-sm opacity-95" x-text="dailyLead().summary_zh"></p>
       </section>
@@ -161,14 +161,14 @@ document.addEventListener('alpine:init', () => {
     <!-- Filters -->
     <section class="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
       <div class="flex items-center justify-between mb-3">
-        <h2 class="font-semibold">篩選</h2>
+        <h2 class="font-semibold">筛选</h2>
         <button @click="reset()" class="text-xs text-blue-500 hover:underline">重置</button>
       </div>
       <div class="md:hidden mb-3">
         <input type="search" x-model="q" placeholder="搜索..." class="w-full px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm" />
       </div>
       <div class="mb-3">
-        <div class="text-xs text-slate-500 mb-1">地區</div>
+        <div class="text-xs text-slate-500 mb-1">地区</div>
         <div class="flex flex-wrap gap-1">
           <template x-for="r in ['CN','US','UK']" :key="r">
             <button @click="activeRegion = activeRegion === r ? null : r"
@@ -178,7 +178,7 @@ document.addEventListener('alpine:init', () => {
         </div>
       </div>
       <div class="mb-3">
-        <div class="text-xs text-slate-500 mb-1">類型</div>
+        <div class="text-xs text-slate-500 mb-1">类型</div>
         <div class="flex flex-wrap gap-1">
           <template x-for="c in ['funding','launch','incident','partnership','regulation','announcement','product']" :key="c">
             <button @click="activeCategory = activeCategory === c ? null : c"
@@ -192,7 +192,7 @@ document.addEventListener('alpine:init', () => {
         <input type="range" min="1" max="5" x-model.number="minImportance" class="w-full" />
       </div>
       <div>
-        <div class="text-xs text-slate-500 mb-1">廠商</div>
+        <div class="text-xs text-slate-500 mb-1">厂商</div>
         <div class="flex flex-wrap gap-1 max-h-56 overflow-y-auto scrollbar-thin">
           <template x-for="c in companies" :key="c.id">
             <button @click="activeCompany = activeCompany === c.id ? null : c.id"
@@ -205,7 +205,7 @@ document.addEventListener('alpine:init', () => {
 
     <!-- Hot chart -->
     <section class="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
-      <h2 class="font-semibold mb-3">近期熱度 <span class="text-xs text-slate-500">(按廠商提及)</span></h2>
+      <h2 class="font-semibold mb-3">近期热度 <span class="text-xs text-slate-500">(按厂商提及)</span></h2>
       <div class="space-y-1.5">
         <template x-for="c in hotList()" :key="c.id">
           <div>
@@ -219,7 +219,7 @@ document.addEventListener('alpine:init', () => {
           </div>
         </template>
         <template x-if="hotList().length === 0">
-          <div class="text-xs text-slate-500">暫無數據</div>
+          <div class="text-xs text-slate-500">暂无数据</div>
         </template>
       </div>
     </section>
@@ -228,13 +228,13 @@ document.addEventListener('alpine:init', () => {
   <!-- Main feed -->
   <main class="lg:col-span-3">
     <div class="mb-3 text-sm text-slate-500 dark:text-slate-400">
-      共 <span x-text="filtered().length"></span> 則
+      共 <span x-text="filtered().length"></span> 则
       <template x-if="items.length !== filtered().length">
         <span class="text-slate-400"> / 全部 <span x-text="items.length"></span></span>
       </template>
     </div>
 
-    <div x-show="loading" class="text-center py-16 text-slate-500">載入中…</div>
+    <div x-show="loading" class="text-center py-16 text-slate-500">加载中…</div>
     <div x-show="error" class="text-center py-16 text-red-500" x-text="error"></div>
 
     <ul class="space-y-3" x-show="!loading && !error">
@@ -262,14 +262,14 @@ document.addEventListener('alpine:init', () => {
         </li>
       </template>
       <template x-if="!loading && filtered().length === 0">
-        <li class="text-center py-16 text-slate-500">沒有符合條件的新聞</li>
+        <li class="text-center py-16 text-slate-500">没有符合条件的新闻</li>
       </template>
     </ul>
   </main>
 </div>
 
 <footer class="max-w-7xl mx-auto px-4 py-8 text-xs text-slate-500 dark:text-slate-500 border-t border-slate-200 dark:border-slate-800 mt-8">
-  資料由 GitHub Actions 每日 08:15（北京時間）自動抓取整理，AI 摘要由 Anthropic Claude 生成。原文版權歸各媒體所有。
+  数据由 GitHub Actions 每日 08:17（北京时间）自动抓取整理，AI 摘要由 Anthropic Claude 生成。原文版权归各媒体所有。
 </footer>
 
 </body>

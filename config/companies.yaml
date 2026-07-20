@@ -1,58 +1,58 @@
-# L4 Robotaxi 追蹤廠商清單
-# aliases: 用於文本匹配的別名（中英大小寫變體都列出）
-# weight: 廠商重要度 1-5，會影響前端排序與 LLM 分類
+# L4 Robotaxi 追踪厂商清单
+# aliases: 用于文本匹配的别名（繁简、中英大小写变体都列出）
+# weight: 厂商重要度 1-5，会影响前端排序与 LLM 分类
 
 companies:
-  # ── 國內 ──
+  # ── 国内 ──
   - id: baidu-apollo
-    name_zh: 百度 Apollo / 蘿蔔快跑
+    name_zh: 百度 Apollo / 萝卜快跑
     name_en: Baidu Apollo / Apollo Go
     region: CN
     weight: 5
-    aliases: [Apollo, 百度Apollo, 蘿蔔快跑, 萝卜快跑, Apollo Go, ApolloGo, 百度自動駕駛]
+    aliases: [Apollo, 百度Apollo, 萝卜快跑, 蘿蔔快跑, Apollo Go, ApolloGo, 百度自动驾驶, 百度自動駕駛]
     homepage: https://www.apollo.auto/
     newsroom: https://www.apollo.auto/newsroom/
 
   - id: pony-ai
-    name_zh: 小馬智行
+    name_zh: 小马智行
     name_en: Pony.ai
     region: CN
     weight: 5
-    aliases: [小馬智行, 小马智行, Pony.ai, Pony AI, PONY, "小馬"]
+    aliases: [小马智行, 小馬智行, Pony.ai, Pony AI, PONY, "小马"]
     homepage: https://pony.ai/
     newsroom: https://pony.ai/news
 
   - id: weride
-    name_zh: 文遠知行
+    name_zh: 文远知行
     name_en: WeRide
     region: CN
     weight: 5
-    aliases: [文遠知行, 文远知行, WeRide, WeRide.ai]
+    aliases: [文远知行, 文遠知行, WeRide, WeRide.ai]
     homepage: https://www.weride.ai/
     newsroom: https://www.weride.ai/newsroom
 
   - id: didi-ad
-    name_zh: 滴滴自動駕駛
+    name_zh: 滴滴自动驾驶
     name_en: DiDi Autonomous Driving
     region: CN
     weight: 4
-    aliases: [滴滴, 滴滴自動駕駛, 滴滴自动驾驶, DiDi, DiDi AV, DiDi Autonomous]
+    aliases: [滴滴, 滴滴自动驾驶, 滴滴自動駕駛, DiDi, DiDi AV, DiDi Autonomous]
     homepage: https://www.didi-labs.com/
 
   - id: deeproute
-    name_zh: 元戎啟行
+    name_zh: 元戎启行
     name_en: DeepRoute.ai
     region: CN
     weight: 3
-    aliases: [元戎啟行, 元戎启行, DeepRoute, DeepRoute.ai]
+    aliases: [元戎启行, 元戎啟行, DeepRoute, DeepRoute.ai]
     homepage: https://www.deeproute.ai/
 
   - id: qcraft
-    name_zh: 輕舟智航
+    name_zh: 轻舟智航
     name_en: QCraft
     region: CN
     weight: 3
-    aliases: [輕舟智航, 轻舟智航, QCraft]
+    aliases: [轻舟智航, 輕舟智航, QCraft]
     homepage: https://www.qcraft.ai/
 
   - id: idriverplus
@@ -71,7 +71,7 @@ companies:
     aliases: [曹操出行, Caocao, Caocao Mobility]
     homepage: https://www.caocaokeji.cn/
 
-  # ── 國外 ──
+  # ── 国外 ──
   - id: waymo
     name_zh: Waymo
     name_en: Waymo

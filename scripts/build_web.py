@@ -41,9 +41,13 @@ def export_latest() -> None:
     src = DATA_DIR / "latest.json"
     dst = WEB_DATA / "latest.json"
     if src.exists():
-        shutil.copy(src, dst)
-        print(f"Copied {src} → {dst}")
-        return
+        with open(src, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if data.get("count", 0) > 0:
+            shutil.copy(src, dst)
+            print(f"Copied {src} → {dst} ({data['count']} items)")
+            return
+        print(f"{src} exists but is empty — falling back to sample data")
     # Fallback: emit a stub so the page loads
     now = datetime.now(timezone.utc)
     stub = {
@@ -52,7 +56,7 @@ def export_latest() -> None:
         "items": [
             {
                 "id": "sample1",
-                "title": "[示例] Waymo 宣布擴大鳳凰城 Robotaxi 覆蓋範圍",
+                "title": "[示例] Waymo 宣布扩大凤凰城 Robotaxi 覆盖范围",
                 "url": "https://waymo.com/",
                 "source": "Waymo Blog (sample)",
                 "category": "official",
@@ -60,7 +64,7 @@ def export_latest() -> None:
                 "lang": "en",
                 "published_at": (now - timedelta(hours=2)).isoformat(),
                 "excerpt": "Waymo announced expanded service area...",
-                "summary_zh": "Waymo 宣布將鳳凰城 Robotaxi 服務區域擴大 15%，覆蓋人口首次超過百萬。此舉是繼舊金山之後最大規模的擴張。",
+                "summary_zh": "Waymo 宣布将凤凰城 Robotaxi 服务区域扩大 15%，覆盖人口首次超过百万。此举是继旧金山之后最大规模的扩张。",
                 "company_ids": ["waymo"],
                 "importance": 4,
                 "sentiment": "positive",
@@ -68,15 +72,15 @@ def export_latest() -> None:
             },
             {
                 "id": "sample2",
-                "title": "[示例] 蘿蔔快跑北京訂單量單月突破 100 萬",
+                "title": "[示例] 萝卜快跑北京订单量单月突破 100 万",
                 "url": "https://www.apollo.auto/",
                 "source": "36 氪 (sample)",
                 "category": "tech_media",
                 "category_llm": "launch",
                 "lang": "zh",
                 "published_at": (now - timedelta(hours=8)).isoformat(),
-                "excerpt": "百度 Apollo 蘿蔔快跑在北京地區 6 月訂單...",
-                "summary_zh": "百度 Apollo 蘿蔔快跑 6 月在北京單月訂單首次突破 100 萬單，環比增長 40%。目前已在 11 個城市開放無人化運營。",
+                "excerpt": "百度 Apollo 萝卜快跑在北京地区 6 月订单...",
+                "summary_zh": "百度 Apollo 萝卜快跑 6 月在北京单月订单首次突破 100 万单，环比增长 40%。目前已在 11 个城市开放无人化运营。",
                 "company_ids": ["baidu-apollo"],
                 "importance": 4,
                 "sentiment": "positive",
@@ -84,7 +88,7 @@ def export_latest() -> None:
             },
             {
                 "id": "sample3",
-                "title": "[示例] 小馬智行完成 3 億美元 D 輪融資",
+                "title": "[示例] 小马智行完成 3 亿美元 D 轮融资",
                 "url": "https://pony.ai/",
                 "source": "TechCrunch (sample)",
                 "category": "tech_media",
@@ -92,7 +96,7 @@ def export_latest() -> None:
                 "lang": "en",
                 "published_at": (now - timedelta(days=1)).isoformat(),
                 "excerpt": "Pony.ai closed a $300M Series D...",
-                "summary_zh": "小馬智行完成 3 億美元 D 輪融資，投後估值達 85 億美元。本輪資金主要用於車隊擴充和海外市場拓展。",
+                "summary_zh": "小马智行完成 3 亿美元 D 轮融资，投后估值达 85 亿美元。本轮资金主要用于车队扩充和海外市场拓展。",
                 "company_ids": ["pony-ai"],
                 "importance": 5,
                 "sentiment": "positive",

@@ -1,42 +1,42 @@
 [
   {
     "id": "baidu-apollo",
-    "name_zh": "百度 Apollo / 蘿蔔快跑",
+    "name_zh": "百度 Apollo / 萝卜快跑",
     "name_en": "Baidu Apollo / Apollo Go",
     "region": "CN",
     "weight": 5
   },
   {
     "id": "pony-ai",
-    "name_zh": "小馬智行",
+    "name_zh": "小马智行",
     "name_en": "Pony.ai",
     "region": "CN",
     "weight": 5
   },
   {
     "id": "weride",
-    "name_zh": "文遠知行",
+    "name_zh": "文远知行",
     "name_en": "WeRide",
     "region": "CN",
     "weight": 5
   },
   {
     "id": "didi-ad",
-    "name_zh": "滴滴自動駕駛",
+    "name_zh": "滴滴自动驾驶",
     "name_en": "DiDi Autonomous Driving",
     "region": "CN",
     "weight": 4
   },
   {
     "id": "deeproute",
-    "name_zh": "元戎啟行",
+    "name_zh": "元戎启行",
     "name_en": "DeepRoute.ai",
     "region": "CN",
     "weight": 3
   },
   {
     "id": "qcraft",
-    "name_zh": "輕舟智航",
+    "name_zh": "轻舟智航",
     "name_en": "QCraft",
     "region": "CN",
     "weight": 3

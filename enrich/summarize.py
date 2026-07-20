@@ -65,7 +65,7 @@ def _build_system_prompt() -> list[dict]:
     static_block = f"""You are an expert autonomous-driving industry analyst.
 
 You will be given a single news article (title + excerpt). Your job:
-1. Write a concise 2-3 sentence Chinese (繁體) summary — factual, no fluff.
+1. Write a concise 2-3 sentence Chinese (简体中文) summary — factual, no fluff.
 2. Identify which of the tracked companies the article is about.
 3. Classify into one of: announcement, funding, incident, launch, layoff, hiring,
    partnership, regulation, product, opinion, other.
@@ -80,7 +80,7 @@ Event categories (used for boosted importance):
 
 Rules:
 - If title/excerpt only mentions a company in passing, do not add it.
-- Chinese summary must be neutral, third-person, no marketing tone.
+- Chinese summary must be neutral, third-person, no marketing tone, 简体中文 only.
 - If article is off-topic (not L4/robotaxi related), set importance=1 and category="other".
 """
     return [
