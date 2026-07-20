@@ -81,5 +81,5 @@ sites:
     date_selector: time
     limit: 15
 
-# 註：中國廠商大多用微信公眾號發布，官網無穩定新聞頁。
-# 可透過 RSSHub 公共實例（例如 rsshub.app/wechat）加到 feeds.yaml。
+# 注：中国厂商大多用微信公众号发布，官网无稳定新闻页。
+# 可通过 RSSHub 公共实例（例如 rsshub.app/wechat）加到 feeds.yaml。

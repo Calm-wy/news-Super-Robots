@@ -1,9 +1,9 @@
-# RSS/Atom feed 來源
+# RSS/Atom feed 来源
 # category: official | tech_media | social | capital
 # lang: zh | en
 
 feeds:
-  # ── 科技媒體（英）──
+  # ── 科技媒体（英）──
   - name: TechCrunch - Transportation
     url: https://techcrunch.com/category/transportation/feed/
     category: tech_media
@@ -34,14 +34,14 @@ feeds:
     lang: en
     weight: 3
 
-  # ── 科技媒體（中）──
-  - name: 36 氪 - 汽車
+  # ── 科技媒体（中）──
+  - name: 36 氪 - 汽车
     url: https://36kr.com/feed-newsflash
     category: tech_media
     lang: zh
     weight: 4
 
-  - name: 車東西
+  - name: 车东西
     url: https://www.zhidx.com/feed
     category: tech_media
     lang: zh
@@ -62,11 +62,11 @@ feeds:
     company: aurora
     weight: 5
 
-  # ── 資本市場 ──
+  # ── 资本市场 ──
   - name: Crunchbase News - Transportation
     url: https://news.crunchbase.com/sections/transportation/feed/
     category: capital
     lang: en
     weight: 3
 
-# 註: 部分廠商官網無 RSS，會由 collectors/official.py 用 HTML 抓取
+# 注: 部分厂商官网无 RSS，会由 collectors/official.py 用 HTML 抓取

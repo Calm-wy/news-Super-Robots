@@ -1,5 +1,5 @@
-# 關鍵詞：文章匹配到才會被納入 pipeline
-# category_boost: 命中重要類別時，最終 importance 分數加成
+# 关键词：文章匹配到才会被纳入 pipeline
+# category_boost: 命中重要类别时，最终 importance 分数加成
 
 primary_keywords:
   zh:
@@ -26,7 +26,7 @@ primary_keywords:
     - Level 4 autonomy
     - AV fleet
 
-# 事件類關鍵詞 → 若命中則 importance +1，並會觸發 Sonnet 深度摘要
+# 事件类关键词 → 若命中则 importance +1，并会触发 Sonnet 深度摘要
 category_boost:
   funding:
     weight: 2
