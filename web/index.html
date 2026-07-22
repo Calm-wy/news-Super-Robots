@@ -30,10 +30,17 @@ document.addEventListener('alpine:init', () => {
     async init() {
       const saved = localStorage.getItem('rt-dark');
       if (saved !== null) this.dark = saved === '1';
+      await this.load();
+    },
+
+    async load() {
+      this.loading = true;
+      this.error = null;
       try {
+        const bust = '?t=' + Date.now();
         const [dataR, compR] = await Promise.all([
-          fetch('data/latest.json').then(r => r.json()),
-          fetch('data/companies.json').then(r => r.json()),
+          fetch('data/latest.json' + bust, { cache: 'no-store' }).then(r => r.json()),
+          fetch('data/companies.json' + bust, { cache: 'no-store' }).then(r => r.json()),
         ]);
         this.generated_at = dataR.generated_at;
         this.items = dataR.items;
@@ -154,6 +161,10 @@ document.addEventListener('alpine:init', () => {
     <div class="text-xs text-slate-500 dark:text-slate-400" x-text="fmtGeneratedAt(generated_at)"></div>
     <div class="flex-1"></div>
     <input type="search" x-model="q" placeholder="搜索标题 / 摘要..." class="hidden md:block px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm w-64" />
+    <button @click="load()" :disabled="loading" title="刷新最新内容"
+      class="text-sm px-3 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 disabled:opacity-50">
+      <span x-text="loading ? '⏳ 刷新中' : '🔄 刷新'"></span>
+    </button>
     <button @click="toggleDark" class="text-sm px-3 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">
       <span x-text="dark ? '☀️ 浅色' : '🌙 深色'"></span>
     </button>

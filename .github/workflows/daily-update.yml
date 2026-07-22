@@ -2,8 +2,8 @@ name: Daily News Update
 
 on:
   schedule:
-    # UTC 00:17 = 北京 08:17 (avoid the top-of-hour cron rush)
-    - cron: '17 0 * * *'
+    # UTC 01:07 = 北京 09:07 (avoid the top-of-hour cron rush)
+    - cron: '7 1 * * *'
   workflow_dispatch:
 
 permissions:
