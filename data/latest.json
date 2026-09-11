@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-09-10T06:16:04.726679+00:00",
-  "count": 10288,
+  "generated_at": "2026-09-11T06:15:13.991568+00:00",
+  "count": 10307,
   "items": [
+    {
+      "id": "cf5e314b9200ada4",
+      "title": "Congressman presses DOT on Tesla FSD after 43 sleeping-driver videos",
+      "url": "https://electrek.co/2026/09/10/congressman-dot-tesla-fsd-sleeping-drivers/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-10T15:48:13+00:00",
+      "excerpt": "A US congressman is demanding the Department of Transportation explain what it’s doing about Tesla’s Autopilot and Full Self-Driving after an NBC News investigation surfaced dozens of videos of drivers apparently asleep at the wheel. Rep. Raja Krishnamoorthi gave Transportation Secretary Sean Duffy until September 30 to answer five questions about the systems, which Tesla itself says “require active driver supervision and are not autonomous driving systems.” more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "2f4c4cd619385d2b",
+      "title": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
+      "url": "https://www.theverge.com/transportation/992014/tesla-cybercab-hands-on-test-robotaxi-austin",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-09T14:41:07+00:00",
+      "excerpt": "Getting out of a taxi shouldn't be a shameful experience. Yet I find myself feeling particularly embarrassed while exiting a Tesla Cybercab as it partially blocks a narrow road outside a popular Austin swimming hole. As a cadre of annoyed, sweaty Texan parking spot hunters pile up around it, the gold-painted two-seater just sits there [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
     {
       "id": "2f4c4cd619385d2b",
       "title": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
@@ -66,6 +108,48 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "3c8262d8e399c257",
+      "title": "Tesla Cybercab doesn’t have any manual controls — but it does have a virtual joystick",
+      "url": "https://www.theverge.com/transportation/991400/tesla-cybercab-virtual-joystick-manual-control",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-08T16:06:56+00:00",
+      "excerpt": "The Tesla Cybercab is notable for what it lacks, namely a steering wheel and pedal. By design, there is no way for this vehicle to be manually controlled - or so we thought. Less than a week after the Cybercab was officially launched in Austin, Texas, some riders have discovered the Cybercab's secret manual controls [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "26012d6174e664b8",
+      "title": "Tesla Cybercab has a hidden virtual joystick to drive it manually",
+      "url": "https://electrek.co/2026/09/08/tesla-cybercab-hidden-virtual-joystick-manual-driving/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-08T14:48:24+00:00",
+      "excerpt": "A Tesla Cybercab rider found something in the robotaxi: a manual driving mode. When he got in, the touchscreen was showing a virtual joystick to drive the car by hand. Tesla built the Cybercab with no steering wheel and no pedals. But it apparently still has a way to drive it manually, and you do it by dragging a finger across a screen. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "26012d6174e664b8",
       "title": "Tesla Cybercab has a hidden virtual joystick to drive it manually",
       "url": "https://electrek.co/2026/09/08/tesla-cybercab-hidden-virtual-joystick-manual-driving/",
@@ -148,6 +232,46 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "e253cef84f6b6f3e",
+      "title": "Rivian’s Gambit for Full Autonomy",
+      "url": "https://spectrum.ieee.org/rivian-self-driving",
+      "source": "IEEE Spectrum - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-08T13:00:04+00:00",
+      "excerpt": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif. , through areas crowded with touchstones of tech history. We cruise near the landmark HP Garage , the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 million DARPA Grand Challenge in 2005. The team’s Volkswagen SUV, named Stanley, became the world’s first ",
+      "company_ids": [
+        "cruise"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "0b06c749b54844a7",
+      "title": "The Growing Proof That Autonomous Cars Save Lives",
+      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "source": "IEEE Spectrum - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-08T12:59:04+00:00",
+      "excerpt": "Plenty of people remain spooked by autonomous vehicles, or AVs. Some experts and policymakers have cautioned that AVs won’t necessarily make roads safer. When it comes to partial or full autonomy, the picture isn’t entirely clear, in part because there aren’t enough self-driving cars to make meaningful apples-to-apples comparisons. Yet mounting research suggests that self-driving cars crash significantly less often than people, and with far fewer injuries. Evidence also shows that advanced drive",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "0b06c749b54844a7",
@@ -314,6 +438,88 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "d2a212afa9310981",
+      "title": "Motional Open-Sources Dataset to Help Autonomous Vehicles Master Human-Like Reasoning",
+      "url": "https://motional.com/newsroom",
+      "source": "Motional News",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "excerpt": "",
+      "company_ids": [
+        "motional"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "a74435ee5077554c",
+      "title": "Motional Open-Sources Dataset to Help Autonomous Vehicles Master Human-Like Reasoning",
+      "url": "https://motional.com/news/motional-open-sources-dataset-help-autonomous-vehicles-master-human-reasoning",
+      "source": "Motional News",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "excerpt": "",
+      "company_ids": [
+        "motional"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "3a69743a1240faa8",
+      "title": "Motional Recognized on Fast Company’s List of the 100 Best Workplaces for Innovators",
+      "url": "https://motional.com/news/motional-recognized-fast-companys-list-100-best-workplaces-innovators",
+      "source": "Motional News",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "excerpt": "",
+      "company_ids": [
+        "motional"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "b77809584b6af291",
+      "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
+      "url": "https://electrek.co/2026/09/07/tesla-driver-assist-stop-sign-buena-vista/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-07T18:41:15+00:00",
+      "excerpt": "A Tesla Model 3 ran a stop sign in Buena Vista Township, New Jersey, and hit a Honda Civic turning left through the intersection. The Civic’s driver, 82-year-old Stephen Field, was killed. Police reported it as a car that failed to stop. What no one reported is that Tesla’s own data says the car’s driver-assist system was engaged. This is part of an ongoing Electrek investigation matching reported crashes to Tesla’s redacted NHTSA data. more…",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
+    },
+    {
       "id": "b77809584b6af291",
       "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
       "url": "https://electrek.co/2026/09/07/tesla-driver-assist-stop-sign-buena-vista/",
@@ -434,14 +640,14 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "ee6fea38c4ac6b11",
-      "title": "Survey Sunday: will Cybercab transform mobility, or be just another car?",
-      "url": "https://electrek.co/2026/09/06/survey-sunday-will-cybercab-transform-mobility-or-be-just-another-car/",
+      "id": "ee1d343ce6dae5fa",
+      "title": "If a Tesla Cybercab fleet were profitable, Tesla wouldn’t sell you one",
+      "url": "https://electrek.co/2026/09/07/tesla-cybercab-fleet-profitable-wouldnt-sell/",
       "source": "Electrek",
       "category": "tech_media",
       "lang": "en",
-      "published_at": "2026-09-06T20:46:40+00:00",
-      "excerpt": "For the last few weeks, we’ve been running a sidebar survey about whether our Electrek readers believed the new Cybercab would be a transformative new technology, or – not. After nearly 2,700 responses, here’s what you told us. more…",
+      "published_at": "2026-09-07T14:38:46+00:00",
+      "excerpt": "Tesla is now asking businesses whether they’d like to buy and operate their own fleets of Cybercab robotaxis on its network. It’s the same pitch Elon Musk has been making since 2019: buy the cars, put them to work, and earn money while you sleep. There’s one problem with it. And it never happened, and you shouldn’t fall for it now. If running a fleet of Cybercabs were actually profitable, Tesla wouldn’t sell you a single one. more…",
       "company_ids": [
         "tesla-robotaxi"
       ],
@@ -509,6 +715,67 @@
         "tesla-robotaxi"
       ],
       "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "ee6fea38c4ac6b11",
+      "title": "Survey Sunday: will Cybercab transform mobility, or be just another car?",
+      "url": "https://electrek.co/2026/09/06/survey-sunday-will-cybercab-transform-mobility-or-be-just-another-car/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-06T20:46:40+00:00",
+      "excerpt": "For the last few weeks, we’ve been running a sidebar survey about whether our Electrek readers believed the new Cybercab would be a transformative new technology, or – not. After nearly 2,700 responses, here’s what you told us. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "ee6fea38c4ac6b11",
+      "title": "Survey Sunday: will Cybercab transform mobility, or be just another car?",
+      "url": "https://electrek.co/2026/09/06/survey-sunday-will-cybercab-transform-mobility-or-be-just-another-car/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-06T20:46:40+00:00",
+      "excerpt": "For the last few weeks, we’ve been running a sidebar survey about whether our Electrek readers believed the new Cybercab would be a transformative new technology, or – not. After nearly 2,700 responses, here’s what you told us. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "5325508b04b86470",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-06T16:45:00+00:00",
+      "excerpt": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "company_ids": [],
+      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -678,6 +945,48 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "907afdc132888d7e",
+      "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
+      "url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-06T16:08:00+00:00",
+      "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "5ab91582f4231a20",
+      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+      "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+      "source": "Ars Technica - Cars",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-05T15:17:36+00:00",
+      "excerpt": "The US government is investigating whether the Cybercab meets vehicle safety standards.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "5ab91582f4231a20",
       "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
       "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
@@ -888,18 +1197,18 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "d97115d229b40fc2",
-      "title": "All press is good press, right? Cybercab event leaves more questions than answers",
-      "url": "https://electrek.co/2026/09/04/all-press-is-good-press-right-cybercab-event-leaves-more-questions-than-answers/",
-      "source": "Electrek",
+      "id": "527d101d04e1baaf",
+      "title": "Robotaxis enter their villain era",
+      "url": "https://www.theverge.com/transportation/989513/road-rage-short-film-robotaxi-autonomous-ai",
+      "source": "The Verge - Transportation",
       "category": "tech_media",
       "lang": "en",
-      "published_at": "2026-09-04T21:51:56+00:00",
-      "excerpt": "On today’s pressing episode of Quick Charge , we challenge the notion that all press is good press by filling the void of information surrounding this week’s Tesla Cybercab launch with a whole lot of bad news for the Full Self Driving brand. more…",
+      "published_at": "2026-09-05T11:00:00+00:00",
+      "excerpt": "It's Bullitt meets Christine meets Waymo. A new short film imagines a San Francisco car chase where the other driver isn't human - and the car may be trying to kill you. That a robotaxi can now be cast as the villain with almost no explanation says something about the present moment. Autonomous cars have [&#8230;]",
       "company_ids": [
-        "tesla-robotaxi"
+        "waymo"
       ],
-      "source_weight": 3,
+      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -1001,6 +1310,69 @@
       "lang": "en",
       "published_at": "2026-09-04T21:51:56+00:00",
       "excerpt": "On today’s pressing episode of Quick Charge , we challenge the notion that all press is good press by filling the void of information surrounding this week’s Tesla Cybercab launch with a whole lot of bad news for the Full Self Driving brand. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "d97115d229b40fc2",
+      "title": "All press is good press, right? Cybercab event leaves more questions than answers",
+      "url": "https://electrek.co/2026/09/04/all-press-is-good-press-right-cybercab-event-leaves-more-questions-than-answers/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T21:51:56+00:00",
+      "excerpt": "On today’s pressing episode of Quick Charge , we challenge the notion that all press is good press by filling the void of information surrounding this week’s Tesla Cybercab launch with a whole lot of bad news for the Full Self Driving brand. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "d97115d229b40fc2",
+      "title": "All press is good press, right? Cybercab event leaves more questions than answers",
+      "url": "https://electrek.co/2026/09/04/all-press-is-good-press-right-cybercab-event-leaves-more-questions-than-answers/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T21:51:56+00:00",
+      "excerpt": "On today’s pressing episode of Quick Charge , we challenge the notion that all press is good press by filling the void of information surrounding this week’s Tesla Cybercab launch with a whole lot of bad news for the Full Self Driving brand. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "eedd25e3d775a294",
+      "title": "Tesla’s new rare-earth-free EV motor is a big deal, but not THAT big a deal",
+      "url": "https://electrek.co/2026/09/04/teslas-new-rare-earth-free-ev-motor-is-a-big-deal-but-not-that-big-a-deal/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T19:00:06+00:00",
+      "excerpt": "Alongside Tesla’s low-key Cybercab event this week, the company showed off its new rare earth-free Cybercab motor, which reportedly increases power density and efficiency significantly. It’s some kind of an achievement, but to understand how much of an achievement it is, we must first understand what all of this actually means. Strap in. more…",
       "company_ids": [
         "tesla-robotaxi"
       ],
@@ -1266,6 +1638,48 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "7b77bc9446090b4b",
+      "title": "ENGWE E26 3.0 full suspension all-terrain e-bike launch deal, Navee Labor Day e-scooter sale, Tenways Wayfarer e-bike $877 off, more",
+      "url": "https://electrek.co/2026/09/04/engwe-e26-3-0-all-terrain-e-bike-navee-labor-day-tenways-wayfarer-e-bike-more/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T18:00:00+00:00",
+      "excerpt": "Whereas yesterday’s Green Deals mostly focused on power stations, today’s edition is all about EV Labor Day deals, starting with the $699 off launch deal for ENGWE’s E26 3.0 Dual-Motor Full Suspension All-Terrain e-bike at $1,799 . Right behind it we have both a spotlight on Navee’s premium UT5 Ultra X Electric SuperScooter at a new $1,785 low ahead of the brand’s Labor Day Sale lineup with up to $800 discounts + bonus extra savings. There’s also the Tenways Wayfarer Cruiser e-bike with a FREE $",
+      "company_ids": [
+        "cruise"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "499605f0fd786386",
+      "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
+      "url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T16:51:23+00:00",
+      "excerpt": "The company says no children under 13 can ride -- even with a parent. That's more restrictive than the Model Y SUVs it's using as robotaxis.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "499605f0fd786386",
       "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
       "url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
@@ -1506,25 +1920,23 @@
       "model_used": "claude-sonnet-4-6"
     },
     {
-      "id": "a87c8a7b1e8ccdf1",
-      "title": "Tesla Cybercab is barely on the road and it’s already under investigation",
-      "url": "https://www.theverge.com/transportation/990130/tesla-cybercab-nhtsa-investigation-fmvss-certify",
-      "source": "The Verge - Transportation",
+      "id": "7c1745ef2180ebdd",
+      "title": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
+      "url": "https://electrek.co/2026/09/04/tesla-fsd-active-safety-collision-avoidance/",
+      "source": "Electrek",
       "category": "tech_media",
       "lang": "en",
-      "published_at": "2026-09-04T13:33:38+00:00",
-      "excerpt": "Elon Musk's gilded robot car barely made it on public roads before federal regulators launched an investigation into the vehicle's lack of traditional features - many of which are required by law. The National Highway Traffic Safety Administration said it was opening an audit query (AQ) into the Tesla Cybercab \"to examine the process and [&#8230;]",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 4,
+      "published_at": "2026-09-04T13:56:18+00:00",
+      "excerpt": "Tesla is rolling out a new version of its Full Self-Driving (Supervised) software that can take control of your car to avoid a crash, even when you’re driving manually. The automaker announced the feature, part of FSD Supervised v14.3.9, in a post from its AI team early Friday. more…",
+      "company_ids": [],
+      "source_weight": 3,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
       "category_llm": "other",
       "importance": 2,
       "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
+      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "a87c8a7b1e8ccdf1",
@@ -1623,6 +2035,69 @@
         "tesla-robotaxi"
       ],
       "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "a87c8a7b1e8ccdf1",
+      "title": "Tesla Cybercab is barely on the road and it’s already under investigation",
+      "url": "https://www.theverge.com/transportation/990130/tesla-cybercab-nhtsa-investigation-fmvss-certify",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T13:33:38+00:00",
+      "excerpt": "Elon Musk's gilded robot car barely made it on public roads before federal regulators launched an investigation into the vehicle's lack of traditional features - many of which are required by law. The National Highway Traffic Safety Administration said it was opening an audit query (AQ) into the Tesla Cybercab \"to examine the process and [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "a87c8a7b1e8ccdf1",
+      "title": "Tesla Cybercab is barely on the road and it’s already under investigation",
+      "url": "https://www.theverge.com/transportation/990130/tesla-cybercab-nhtsa-investigation-fmvss-certify",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T13:33:38+00:00",
+      "excerpt": "Elon Musk's gilded robot car barely made it on public roads before federal regulators launched an investigation into the vehicle's lack of traditional features - many of which are required by law. The National Highway Traffic Safety Administration said it was opening an audit query (AQ) into the Tesla Cybercab \"to examine the process and [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "b8fdde57010d0d8c",
+      "title": "Tesla Cybercab is already under NHTSA investigation after launch",
+      "url": "https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T12:46:21+00:00",
+      "excerpt": "Tesla’s Cybercab is already under federal investigation. NHTSA opened an audit into how Tesla certified the vehicle the same day the company started putting passengers in it in Austin. The probe targets the exact thing that makes the Cybercab unusual: it has no steering wheel, no pedals, and no mirrors, and Tesla certified it as road-legal anyway. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -1884,16 +2359,18 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "2bb4a07d09307601",
-      "title": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
-      "url": "https://electrek.co/2026/09/03/tesla-announces-1-million-unsupervised-miles-driven-by-robotaxi/",
-      "source": "Electrek",
+      "id": "39677a10b5315a03",
+      "title": "Feds launch investigation into Tesla’s Cybercab deployment",
+      "url": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+      "source": "TechCrunch - Transportation",
       "category": "tech_media",
       "lang": "en",
-      "published_at": "2026-09-04T05:04:32+00:00",
-      "excerpt": "Tesla said today that its Robotaxis have driven a total of 1 million miles without a human driver supervising them. The number is more than double what we heard at the last check-in just six weeks ago, as Tesla finally shifts away from human “safety drivers.” more…",
-      "company_ids": [],
-      "source_weight": 3,
+      "published_at": "2026-09-04T12:01:14+00:00",
+      "excerpt": "The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -2007,6 +2484,65 @@
       "published_at": "2026-09-04T05:04:32+00:00",
       "excerpt": "Tesla said today that its Robotaxis have driven a total of 1 million miles without a human driver supervising them. The number is more than double what we heard at the last check-in just six weeks ago, as Tesla finally shifts away from human “safety drivers.” more…",
       "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "2bb4a07d09307601",
+      "title": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "url": "https://electrek.co/2026/09/03/tesla-announces-1-million-unsupervised-miles-driven-by-robotaxi/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T05:04:32+00:00",
+      "excerpt": "Tesla said today that its Robotaxis have driven a total of 1 million miles without a human driver supervising them. The number is more than double what we heard at the last check-in just six weeks ago, as Tesla finally shifts away from human “safety drivers.” more…",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "2bb4a07d09307601",
+      "title": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "url": "https://electrek.co/2026/09/03/tesla-announces-1-million-unsupervised-miles-driven-by-robotaxi/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T05:04:32+00:00",
+      "excerpt": "Tesla said today that its Robotaxis have driven a total of 1 million miles without a human driver supervising them. The number is more than double what we heard at the last check-in just six weeks ago, as Tesla finally shifts away from human “safety drivers.” more…",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "429274534cf63be1",
+      "title": "Tesla opens search for Cybercab fleet sales, but FSD owners are still left out",
+      "url": "https://electrek.co/2026/09/03/tesla-opens-search-for-cybercab-fleet-sales-but-fsd-owners-are-still-left-out/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T01:05:58+00:00",
+      "excerpt": "Tesla has started distributing a “Robotaxi interest form,” collecting interest from fleet buyers who would want to build a Robotaxi network or provide related infrastructure services. It’s the first step in allowing non-Tesla entities to make money off of Tesla’s FSD driver-assist software… but the owners who were promised they could make passive income with their cars are still out of luck. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
       "source_weight": 3,
       "raw": {},
       "title_zh": "",
@@ -2298,6 +2834,48 @@
       "lang": "en",
       "published_at": "2026-09-04T00:25:06+00:00",
       "excerpt": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "49d2955147688437",
+      "title": "The unusually muted Tesla Cybercab launch",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-04T00:25:06+00:00",
+      "excerpt": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [&#8230;]",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "b69f19e5c78f1cd8",
+      "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
+      "url": "https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-03T22:18:30+00:00",
+      "excerpt": "The company published a form on its website Thursday soliciting info from people who are interested in \"Cybercab fleet vehicle purchasing.\"",
       "company_ids": [
         "tesla-robotaxi"
       ],
@@ -2605,23 +3183,25 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "cbafa508283ee282",
-      "title": "A Tesla killed a motorcyclist on Autopilot/FSD, Tesla’s own data confirms",
-      "url": "https://electrek.co/2026/09/03/tesla-driver-assist-motorcyclist-moraine/",
-      "source": "Electrek",
+      "id": "bbf6aa8e49f4a3e4",
+      "title": "The Cybercab is Tesla’s ‘fork in the road’ moment",
+      "url": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/",
+      "source": "TechCrunch - Transportation",
       "category": "tech_media",
       "lang": "en",
-      "published_at": "2026-09-03T16:05:07+00:00",
-      "excerpt": "A Tesla Model X struck and killed a motorcyclist at an intersection in Moraine last year and the crash went mostly unnoticed. But Tesla’s own report to federal regulators says the vehicle was a Model X with its driver-assist system, Autopilot or Full Self-Driving (Tesla hides which one) engaged. This is part of an ongoing Electrek investigation matching reported crashes to Tesla’s redacted NHTSA data — and it’s the clearest example yet of how completely these crashes can vanish from the public r",
-      "company_ids": [],
-      "source_weight": 3,
+      "published_at": "2026-09-03T19:42:48+00:00",
+      "excerpt": "The company is about to formally launch the gold two-seater, with no steering wheel or pedals -- a move that could change Tesla forever.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
       "category_llm": "other",
       "importance": 2,
       "sentiment": "neutral",
-      "model_used": "claude-sonnet-4-6"
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "cbafa508283ee282",
@@ -2736,6 +3316,65 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cbafa508283ee282",
+      "title": "A Tesla killed a motorcyclist on Autopilot/FSD, Tesla’s own data confirms",
+      "url": "https://electrek.co/2026/09/03/tesla-driver-assist-motorcyclist-moraine/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-03T16:05:07+00:00",
+      "excerpt": "A Tesla Model X struck and killed a motorcyclist at an intersection in Moraine last year and the crash went mostly unnoticed. But Tesla’s own report to federal regulators says the vehicle was a Model X with its driver-assist system, Autopilot or Full Self-Driving (Tesla hides which one) engaged. This is part of an ongoing Electrek investigation matching reported crashes to Tesla’s redacted NHTSA data — and it’s the clearest example yet of how completely these crashes can vanish from the public r",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cbafa508283ee282",
+      "title": "A Tesla killed a motorcyclist on Autopilot/FSD, Tesla’s own data confirms",
+      "url": "https://electrek.co/2026/09/03/tesla-driver-assist-motorcyclist-moraine/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-03T16:05:07+00:00",
+      "excerpt": "A Tesla Model X struck and killed a motorcyclist at an intersection in Moraine last year and the crash went mostly unnoticed. But Tesla’s own report to federal regulators says the vehicle was a Model X with its driver-assist system, Autopilot or Full Self-Driving (Tesla hides which one) engaged. This is part of an ongoing Electrek investigation matching reported crashes to Tesla’s redacted NHTSA data — and it’s the clearest example yet of how completely these crashes can vanish from the public r",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "8c0df03c5d00b533",
+      "title": "Amazon’s Zoox expands its robotaxi service to Las Vegas airport",
+      "url": "https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-03T12:12:56+00:00",
+      "excerpt": "Zoox is expanding to this critical ride-hailing destination a few weeks after it started charging for robotaxi rides.",
+      "company_ids": [
+        "zoox"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "8c0df03c5d00b533",
@@ -3372,6 +4011,46 @@
       "excerpt": "Uber is laying off about 3,300 people, or about 10% of its global headcount, in a bid to reduce management layers and invest more in its ridesharing, delivery, and robotaxi divisions.",
       "company_ids": [],
       "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "0dc11a6e73a54c38",
+      "title": "Uber is laying off 10% of staff, or 3,300 people",
+      "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-02T12:14:35+00:00",
+      "excerpt": "Uber is laying off about 3,300 people, or about 10% of its global headcount, in a bid to reduce management layers and invest more in its ridesharing, delivery, and robotaxi divisions.",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "4b9ea14ff0645823",
+      "title": "Inside the Brain of a Self-Driving Car: How Motional and MIT are Cracking Open the Black Box of AI",
+      "url": "https://motional.com/news/inside-brain-self-driving-car-how-motional-and-mit-are-cracking-open-black-box-ai",
+      "source": "Motional News",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-02T12:00:00+00:00",
+      "excerpt": "",
+      "company_ids": [
+        "motional"
+      ],
+      "source_weight": 5,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -4188,6 +4867,28 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "e23f772036aa8413",
+      "title": "Waymo goes on offense ahead of Tesla’s Cybercab launch",
+      "url": "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-09-01T16:49:12+00:00",
+      "excerpt": "Waymo argued that fully autonomous vehicles aren't possible without using a mix of sensors and warned that pure end-to-end AI systems aren't safe enough.",
+      "company_ids": [
+        "tesla-robotaxi",
+        "waymo"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "d0320815eefc9b6c",
       "title": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
       "url": "https://electrek.co/2026/09/01/waymo-public-robotaxi-denver-san-diego-tampa/",
@@ -4828,6 +5529,27 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "bf713b03046a5e35",
+      "title": "Welcoming our first riders in Denver,  San Diego, and Tampa",
+      "url": "https://waymo.com/blog/2026/09/ride-in-denver-san-diego-tampa",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "excerpt": "Get ready to buckle up, sit back, and relax. It’s time to ride! Today, we’ll begin welcoming our first public riders in Denver, San Diego, and Tampa, marking 14 cities where we’re providing riders fully autonomous trips.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "bf713b03046a5e35",
@@ -7460,6 +8182,27 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "adb0e99aa91d6345",
+      "title": "10 AI Lessons from Driving 200+ Million Fully Autonomous Miles",
+      "url": "https://waymo.com/blog/2026/08/10ailessons",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "excerpt": "Much of the autonomous vehicle (AV) space is uncharted territory. However, at Waymo, with more than 200 million miles driven fully autonomously, we’re one of very few companies that can look to our past to illuminate our future. Our experience has led us to ten fundamental truths that shape how we build AI.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "b13574c868c6b117",
       "title": "Waymo robotaxis are headed to Munich",
       "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
@@ -7818,6 +8561,27 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ed9b976fd6fb3f0a",
+      "title": "Servus München: Waymo is Coming to Germany",
+      "url": "https://waymo.com/blog/2026/08/waymo-in-munich",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "excerpt": "Today, we are excited to announce that Waymo is laying the groundwork for our fully autonomous ride-hailing service in Munich, Germany.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "ed9b976fd6fb3f0a",
@@ -8664,6 +9428,25 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "95e2fe9ad32fcf44",
+      "title": "Self-Driving Cars Could Someday Take Requests",
+      "url": "https://spectrum.ieee.org/autonomous-vehicles-motion-planner-llm",
+      "source": "IEEE Spectrum - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-08-24T15:51:45+00:00",
+      "excerpt": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. The idea of letting a machine do the driving for you may put a lot of people off autonomous vehicles . But research could make it possible to backseat-drive an autonomous vehicle just as you might with a human driver. Self-driving cars carefully balance a host of parameters to ensure a smooth ride, including things like speed, acceleration, and the smoothness of turns. But human driving preferences c",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "95e2fe9ad32fcf44",
@@ -9148,6 +9931,27 @@
         "tesla-robotaxi"
       ],
       "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "d8f62e3fb66d61c8",
+      "title": "Setting the Global Standard for Privacy in Autonomous Mobility",
+      "url": "https://waymo.com/blog/2026/08/waymo-privacy-approach",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "excerpt": "As we expand to serve more riders in more places, we're sharing a reminder about how we approach privacy for our riders, our partners and those with whom we share the roads.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -10691,6 +11495,27 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "3236bfa81e621a80",
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+      "source": "Ars Technica - Cars",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-08-21T13:11:35+00:00",
+      "excerpt": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "56b94c01eaccc75f",
       "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
       "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
@@ -11543,6 +12368,27 @@
         "waymo"
       ],
       "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "f648ad60e8d0640c",
+      "title": "A look under our trunk: what’s in our compute",
+      "url": "https://waymo.com/blog/2026/08/look-under-our-trunk",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "excerpt": "Compute is the brain of the Waymo Driver, translating raw sensor data into real-time driving commands. Operating demonstrably safe, physical AI on the road demands a fundamental shift towards a system engineered for deterministic, low-latency performance. Over the past decade, we have co-designed our hardware, sensors, and algorithms side-by-side to solve the unique constraints of real-world edge compute. We’re offering the first look under our trunk to share our approach to compute, our custom ",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -15020,27 +15866,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "280eb2554621d406",
-      "title": "Tesla unveils first Cybercab with Starlink antenna integrated",
-      "url": "https://electrek.co/2026/08/10/tesla-first-cybercab-starlink-integration/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-10T18:38:40+00:00",
-      "excerpt": "Tesla’s robotaxi account posted photos today of what it’s calling the first Cybercab with a Starlink antenna built into the vehicle. The pictures show a gold Cybercab parked at Gigafactory Texas, with a low-profile satellite antenna integrated into the roof. It’s the physical version of an integration Tesla teased with a diagram last month.",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "8331dfd7a1756403",
       "title": "Pony.ai to put 100,000 autonomous electric trucks on the road by 2030 [video]",
       "url": "https://electrek.co/2026/08/09/pony-ai-to-put-100000-autonomous-electric-trucks-on-the-road-by-2030-video/",
@@ -15158,48 +15983,6 @@
         "pony-ai"
       ],
       "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "8331dfd7a1756403",
-      "title": "Pony.ai to put 100,000 autonomous electric trucks on the road by 2030 [video]",
-      "url": "https://electrek.co/2026/08/09/pony-ai-to-put-100000-autonomous-electric-trucks-on-the-road-by-2030-video/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-09T18:33:34+00:00",
-      "excerpt": "Chinese autonomy experts Pony.ai are planning to put 1,000 autonomous electric commercial trucks to work by 2027, but it’s the company’s plans to put 100,000 self-driving trucks on the road by 2030 that’s making headlines.",
-      "company_ids": [
-        "pony-ai"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "c7fe0574fd53e5af",
-      "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
-      "url": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-09T16:05:00+00:00",
-      "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "company_ids": [
-        "zoox"
-      ],
-      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -15492,48 +16275,6 @@
       "excerpt": "We’re closing out this week with plenty of low prices, starting with the premium golden Navee UT5 Ultra X Electric SuperScooter down at its $1,955 low for the first time since launching, alongside two other new low prices on high-performance e-scooters. The EGO Power+ Nexus 1,400W Portable Power Station with 2x 6.0Ah batteries is at a $799 low , while Aventon is offering a second weekend flash sale for the Level 3 Commuter and Pace 4 Cruiser e-bikes back at $1,299 lows . There’s also the Beatbot",
       "company_ids": [
         "cruise"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "a3b10d6c502f160b",
-      "title": "Navee UT5 Ultra X superscooter $1,955 low, EGO Nexus power station bundle $799 low, Aventon $1,299 flash sale e-bike lows, more",
-      "url": "https://electrek.co/2026/08/07/navee-ut5-ultra-x-superscooter-ego-nexus-power-station-aventon-e-bikes-more/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-07T18:00:00+00:00",
-      "excerpt": "We’re closing out this week with plenty of low prices, starting with the premium golden Navee UT5 Ultra X Electric SuperScooter down at its $1,955 low for the first time since launching, alongside two other new low prices on high-performance e-scooters. The EGO Power+ Nexus 1,400W Portable Power Station with 2x 6.0Ah batteries is at a $799 low , while Aventon is offering a second weekend flash sale for the Level 3 Commuter and Pace 4 Cruiser e-bikes back at $1,299 lows . There’s also the Beatbot",
-      "company_ids": [
-        "cruise"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "0222cb1849eec7bb",
-      "title": "Tesla is racking up speeding tickets, and YOU are on the hook",
-      "url": "https://electrek.co/2026/08/06/tesla-is-racking-up-speeding-tickets-and-you-are-on-the-hook/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-06T23:35:46+00:00",
-      "excerpt": "On today’s brain-addled episode of Quick Charge , President Trump says electric car drivers have a disease, Full Self Driving won’t stop earning Tesla drivers tickets, and Waymo’s CEO spends over forty minutes explaining why Tesla’s tech won’t ever beat a human driver.",
-      "company_ids": [
-        "waymo"
       ],
       "source_weight": 3,
       "raw": {},
@@ -15644,46 +16385,6 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "aaedd85506cf7722",
-      "title": "Watch Tesla driver plea with police after FSD drove 64 mph in a 45",
-      "url": "https://electrek.co/2026/08/06/tesla-driver-blames-fsd-speeding-police-stop/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-06T13:56:21+00:00",
-      "excerpt": "A police department in Parker, Colorado, pulled over a Tesla going 64 mph in a 45 mph zone whose driver insisted they weren’t responsible, because the car was running “Full Self-Driving.” Of course, Tesla will never take responsibility for that incident, but the frustrating part is that Tesla already has the solution and yet it refuses to implement it.",
-      "company_ids": [],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "837449c5309a0314",
-      "title": "Moove raises $250M to become the backbone of the robotaxi industry",
-      "url": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-05T20:50:45+00:00",
-      "excerpt": "Moove is scaling up the autonomous vehicle fleet management side of its business and plans to someday own, not just manage, Waymo robotaxis.",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "837449c5309a0314",
@@ -15833,48 +16534,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "81c8705941fa451b",
-      "title": "Segway Xafari e-bike new $1,500 low ($900 off) + Xyber e-bike new $2,300 low ($1,000 off), EcoFlow flash sale, ECOVACS, more",
-      "url": "https://electrek.co/2026/08/05/segway-xafari-e-bike-xyber-e-bike-ecoflow-ecovacs-more/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-05T18:00:00+00:00",
-      "excerpt": "It’s a great time to be a Segway fan, as right behind the pre-order deal that just launched on the newest Max G3 Plus e-scooter , the brand has also dropped its Xafari All-Terrain Smart Cruiser e-bike to a new $1,500 low , while the premium Xyber Electric Bike is down at a new $2,300 low . Right behind those we have the latest 48-hour EcoFlow flash sale, with offers like the 3,600Wh DELTA Pro Portable Power Station and 2x 220W solar panels landing just $7 above its all-time lowest price, as well",
-      "company_ids": [
-        "cruise"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "a099c5d679f1621c",
-      "title": "Lucid Motors just delayed its affordable EV. Now what?",
-      "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-05T17:57:45+00:00",
-      "excerpt": "The Cosmos EV is now slated for release in the second half of 2027. CEO Silvio Napoli said he's focused on getting the EV right, as well as its nearer-term robotaxi project with Uber and Nuro.",
-      "company_ids": [
-        "nuro"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "a099c5d679f1621c",
       "title": "Lucid Motors just delayed its affordable EV. Now what?",
       "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
@@ -16022,27 +16681,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "86d0175c8acd6c70",
-      "title": "Uber CEO brushes off reports of a Waymo break-up",
-      "url": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-05T17:34:48+00:00",
-      "excerpt": "After Uber and Waymo ended their partnership in Phoenix earlier this year, experts and robotaxi watchers wondered whether the companies' improbable bromance was fraying. Not so, Uber CEO Dara Khosrowshahi said today. The two companies are committed to continue working together in Atlanta and Austin, and the partnership remains \"very strong.\" \"Waymo is a very [&#8230;]",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "580a6f84db7baf86",
       "title": "Zoox to start charging for robotaxi rides in Las Vegas",
       "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
@@ -16117,46 +16755,6 @@
       "company_ids": [
         "zoox"
       ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "580a6f84db7baf86",
-      "title": "Zoox to start charging for robotaxi rides in Las Vegas",
-      "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-05T15:06:42+00:00",
-      "excerpt": "This marks the official launch of Zoox's commercial operations.",
-      "company_ids": [
-        "zoox"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "3113bd58d5dc8b80",
-      "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
-      "url": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-04T22:24:00+00:00",
-      "excerpt": "Lucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis.",
-      "company_ids": [],
       "source_weight": 4,
       "raw": {},
       "title_zh": "",
@@ -16226,27 +16824,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "10f357aad1f0a8a6",
-      "title": "Waymo opens up robotaxi service in Dallas to everyone",
-      "url": "https://techcrunch.com/2026/08/04/waymo-opens-up-robotaxi-service-in-dallas-to-everyone/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-04T17:31:01+00:00",
-      "excerpt": "Waymo has dropped the waitlist for its robotaxi service in Dallas, the latest step in the company's bid to scale its self-driving technology across the United States, U.K., and Europe.",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "4cd76481baa894e0",
       "title": "Waymo CEO explains why Tesla’s camera-only self-driving falls short",
       "url": "https://electrek.co/2026/08/04/waymo-co-ceo-camera-only-self-driving-tesla/",
@@ -16268,109 +16845,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "4cd76481baa894e0",
-      "title": "Waymo CEO explains why Tesla’s camera-only self-driving falls short",
-      "url": "https://electrek.co/2026/08/04/waymo-co-ceo-camera-only-self-driving-tesla/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-04T15:31:06+00:00",
-      "excerpt": "Waymo co-CEO Dmitri Dolgov laid out the clearest technical case yet for why cameras alone can’t take a self-driving system to full autonomy, arguing that “weak sensing” hits a safety ceiling long before it reaches superhuman performance. He never said the word Tesla. But camera-only is Tesla’s entire bet, and this was a direct shot at it.",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "e7d71204b1c9e8d6",
-      "title": "Geely Galaxy Battleship 700 tri-motor stuffs 1,113 hp in a high-luxe, boxy package",
-      "url": "https://electrek.co/2026/08/03/geely-galaxy-battleship-700-tri-motor-stuffs-1113-hp-in-a-high-luxe-boxy-package/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-04T01:27:43+00:00",
-      "excerpt": "The eagerly anticipated Geely Galaxy 700 was expected to be the Chinese brand’s answer to the Range Rover and Land Cruiser – but, with a tire-shredding 1,113 hp on tap, it may be a bigger, boxier answer to Italian exotic cars, instead!",
-      "company_ids": [
-        "cruise"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "f484b4b2e2845d41",
-      "title": "Tesla FSD v14 Lite tied to rising HW3 computer failures, owners report",
-      "url": "https://electrek.co/2026/08/03/tesla-fsd-v14-lite-hw3-computer-failures/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-03T16:02:35+00:00",
-      "excerpt": "A growing number of Tesla owners running the new Full Self-Driving v14 “Lite” build on Hardware 3 (HW3) vehicles are reporting Autopilot computer overheating alerts — and, in some cases, outright computer failures. The reports have stacked up in the two weeks since Tesla pushed v14 Lite to wide release, and four owners have contacted Electrek directly about the same problem.",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "bba0bb75e235947b",
-      "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
-      "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-02T16:05:00+00:00",
-      "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "4c2b75317aaaf310",
-      "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis",
-      "url": "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-07-30T14:35:43+00:00",
-      "excerpt": "Zoox just got permission to charge for robotaxi rides in its boxy, steering-wheel-less vehicles. On Thursday, the National Highway Traffic Safety Administration announced it has granted the Amazon-owned Zoox a temporary exemption, allowing it to deploy up to 2,500 vehicles annually over the next two years, as reported earlier by Reuters. The NHTSA's decision exempts [&#8230;]",
-      "company_ids": [
-        "zoox"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "a495b9ff4ce18ecc",
       "title": "Say hi to new Ojai in-car experience",
       "url": "https://waymo.com/blog/2026/07/gemini-in-waymo",
@@ -20014,6 +20488,27 @@
       "excerpt": "Today, we’re proud to announce our new EV battery repurposing program in partnership with B2U Storage Solutions. This strategic collaboration ensures that once our batteries are retired from our all-electric fleet, they begin a vital second chapter: powering the local electricity grids.",
       "company_ids": [
         "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "70fd4a59b101e5bf",
+      "title": "Cracking the Long-Tail Code in Autonomous Driving with nuReasoning",
+      "url": "https://motional.com/news/cracking-long-tail-code-autonomous-driving-nureasoning",
+      "source": "Motional News",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-06-03T12:00:00+00:00",
+      "excerpt": "",
+      "company_ids": [
+        "motional"
       ],
       "source_weight": 5,
       "raw": {},
@@ -21033,48 +21528,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "d2a212afa9310981",
-      "title": "Cracking the Long-Tail Code in Autonomous Driving with nuReasoning",
-      "url": "https://motional.com/newsroom",
-      "source": "Motional News",
-      "category": "official",
-      "lang": "en",
-      "published_at": "2026-06-03T12:00:00+00:00",
-      "excerpt": "",
-      "company_ids": [
-        "motional"
-      ],
-      "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "70fd4a59b101e5bf",
-      "title": "Cracking the Long-Tail Code in Autonomous Driving with nuReasoning",
-      "url": "https://motional.com/news/cracking-long-tail-code-autonomous-driving-nureasoning",
-      "source": "Motional News",
-      "category": "official",
-      "lang": "en",
-      "published_at": "2026-06-03T12:00:00+00:00",
-      "excerpt": "",
-      "company_ids": [
-        "motional"
-      ],
-      "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "02dd80ae194186ad",
       "title": "Same Driver, new vehicle: Welcoming our first riders trips in the Ojai",
       "url": "https://waymo.com/blog/2026/05/welcoming-riders-in-the-ojai",
@@ -45256,27 +45709,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "be44ff71613c985a",
-      "title": "How Motional is Accelerating Scale, Affordability and Safety with Large Driving Models (LDMs)",
-      "url": "https://motional.com/news/how-motional-accelerating-scale-affordability-and-safety-large-driving-models-ldms",
-      "source": "Motional News",
-      "category": "official",
-      "lang": "en",
-      "published_at": "2025-07-29T12:00:00+00:00",
-      "excerpt": "",
-      "company_ids": [
-        "motional"
-      ],
-      "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "f5d67757d0dae0b2",
       "title": "Introducing our next city: Dallas",
       "url": "https://waymo.com/blog/2025/07/our-next-city-dallas",
@@ -46432,27 +46864,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "bd84672b5fec6c33",
-      "title": "Technical Speaking: Omnitag, ML-Powered Multimodal Data Mining Framework",
-      "url": "https://motional.com/news/technical-speaking-omnitag-ml-powered-multimodal-data-mining-framework",
-      "source": "Motional News",
-      "category": "official",
-      "lang": "en",
-      "published_at": "2025-07-14T12:00:00+00:00",
-      "excerpt": "",
-      "company_ids": [
-        "motional"
-      ],
-      "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "59bf3249a55cf6c7",
       "title": "Waymo teen accounts offer peace of mind for Phoenix families",
       "url": "https://waymo.com/blog/2025/07/waymo-teen-accounts",
@@ -48878,27 +49289,6 @@
       "excerpt": "Many recent AI breakthroughs have followed a common pattern: bigger models, trained on more data, with more compute, often deliver extraordinary gains. Waymo’s latest study explores whether this trend extends to autonomous driving and establishes new scaling laws in motion planning and forecasting — core autonomous vehicle (AV) capabilities.",
       "company_ids": [
         "waymo"
-      ],
-      "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "b2a95f7502a7bd92",
-      "title": "Motional Appoints Laura Major, Renowned Expert in AI and Robotics, as President and CEO",
-      "url": "https://motional.com/news/motional-appoints-laura-major-renowned-expert-ai-and-robotics-president-and-ceo",
-      "source": "Motional News",
-      "category": "official",
-      "lang": "en",
-      "published_at": "2025-06-12T12:00:00+00:00",
-      "excerpt": "",
-      "company_ids": [
-        "motional"
       ],
       "source_weight": 5,
       "raw": {},
