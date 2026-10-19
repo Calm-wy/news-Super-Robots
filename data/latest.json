@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-18T06:09:45.154607+00:00",
-  "count": 10766,
+  "generated_at": "2026-10-19T06:26:12.662986+00:00",
+  "count": 10764,
   "items": [
     {
+      "id": "a4cfa48e5145892c",
+      "title": "Cities want to put the boot on robotaxis",
+      "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-18T12:00:00+00:00",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law [&#8230;]",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "4e79f0146d6f0532",
       "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
       "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
@@ -32,6 +51,44 @@
       "excerpt": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve drivers of their responsibility to safely operate their vehicles.\" Video released by CHP shows the Tesla speeding [&#8230;]",
       "company_ids": [],
       "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "4e79f0146d6f0532",
+      "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
+      "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-16T20:49:04+00:00",
+      "excerpt": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve drivers of their responsibility to safely operate their vehicles.\" Video released by CHP shows the Tesla speeding [&#8230;]",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "78d08c9cd51505bf",
+      "title": "Tesla driver says he was asleep on FSD when he hit CHP car, 2 officers hurt",
+      "url": "https://electrek.co/2026/10/16/tesla-fsd-crash-chp-patrol-car-driver-asleep-fairfield/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-16T17:14:43+00:00",
+      "excerpt": "Two California Highway Patrol officers are recovering from serious injuries after a Tesla drove into their patrol car at a crash scene on Interstate 80 in Fairfield. The 22-year-old driver told investigators he was asleep with Tesla’s “Full Self-Driving” engaged. CHP released dashcam video of the impact on Thursday. It’s the latest Tesla to plow into an emergency scene, a failure federal regulators started investigating five years ago. more…",
+      "company_ids": [],
+      "source_weight": 3,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -121,6 +178,27 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "3b83b2b77ed525ff",
+      "title": "Waymo’s robotaxis are headed to Canada",
+      "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-16T16:06:38+00:00",
+      "excerpt": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "a9d2ca0ee050d21a",
       "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
       "url": "https://electrek.co/2026/10/16/waymo-toronto-canada-robotaxi-2028/",
@@ -154,6 +232,48 @@
         "waymo"
       ],
       "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "a9d2ca0ee050d21a",
+      "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
+      "url": "https://electrek.co/2026/10/16/waymo-toronto-canada-robotaxi-2028/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-16T12:07:37+00:00",
+      "excerpt": "Waymo is bringing its robotaxis to Canada, and Toronto is first. Its cars will start driving the city’s streets in the coming days, and the company wants its first public riders on board in 2028. That makes Toronto Waymo’s fourth announced market outside the US, after London, Tokyo, and Singapore. But there’s a catch: Ontario doesn’t have rules for a commercial driverless service yet. more…",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "568aa47c4bd878ed",
+      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-16T01:17:43+00:00",
+      "excerpt": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 4,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -268,6 +388,46 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "f6042d12a62b1ad9",
+      "title": "Hello Toronto! Waymo is En Route",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "excerpt": "Waymo is officially heading to Canada! We’re laying the groundwork for our fully autonomous ride-hailing service in Toronto, investing in local facilities and jobs, with the goal of welcoming our first riders in 2028.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "8c002c07a6e9b86a",
+      "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
+      "url": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-15T17:30:00+00:00",
+      "excerpt": "Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia's autonomous driving stack to power a new partially automated driving system similar to Tesla's Full Self-Driving (Supervised). Volvo says the new point-to-point system will be Level 2++, meaning it can [&#8230;]",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "8c002c07a6e9b86a",
       "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
       "url": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
@@ -323,6 +483,25 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "7071378f10583f6e",
+      "title": "Tesla remote operators keep crashing its ‘Robotaxis,’ data shows",
+      "url": "https://electrek.co/2026/10/15/tesla-remote-operators-crashing-robotaxis/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-15T16:39:08+00:00",
+      "excerpt": "Tesla’s latest crash reports to federal regulators add two more “Robotaxi” crashes where a remote operator, not the car’s autonomous system, was driving when it hit something. That brings it to five in the data now. And every remote takeover that has shown up in a Tesla crash report has ended in a collision. more…",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "7071378f10583f6e",
@@ -445,6 +624,27 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "3f8a9c47828f51f4",
+      "title": "Tesla loses Cybercab assembly lead to Rivian R2 weeks after launch",
+      "url": "https://electrek.co/2026/10/15/tesla-cybercab-assembly-lead-leaves-rivian-r2/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-15T12:43:06+00:00",
+      "excerpt": "Tesla’s Senior Manager of Cybercab General Assembly at Gigafactory Texas, Jody Kerns, is leaving the company to become Rivian’s Director of General Assembly for the R2 in Normal, Illinois. He’s the second Cybercab launch leader to leave Tesla this year. The head of Cybercab new product introduction walked out in April, before the vehicle ever carried a paying passenger. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "ff354b12cb48304e",
       "title": "Lectric XPress Lite e-bike $1,099 + XPress2 FREE $336 bundle, EcoFlow 572Wh RIVER 3 Max new $303 low, snow blower lows, more",
       "url": "https://electrek.co/2026/10/14/lectric-xpress-lite-e-bike-ecoflow-572wh-river-3-max-snow-blower-more/",
@@ -529,6 +729,48 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "ff354b12cb48304e",
+      "title": "Lectric XPress Lite e-bike $1,099 + XPress2 FREE $336 bundle, EcoFlow 572Wh RIVER 3 Max new $303 low, snow blower lows, more",
+      "url": "https://electrek.co/2026/10/14/lectric-xpress-lite-e-bike-ecoflow-572wh-river-3-max-snow-blower-more/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-14T18:00:00+00:00",
+      "excerpt": "Our midweek Green Deals edition is being led by Lectric’s newest 46-pound Xpress Lite e-bike that just launched at $1,099 , which coincides with the bundle for $336 in FREE gear on the XPress2 Cruiser/Commuter e-bikes at $1,299 continuing over from the Better-Than-Prime sale. Right behind that we have two options for EcoFlow’s 572Wh RIVER 3 Max Expanded Power Station at a new $303 low or getting a FREE $40 tool pegboard at Amazon for $319. From there, we have two cordless electric snow blower de",
+      "company_ids": [
+        "cruise"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "c5ac567737689d82",
+      "title": "The feds are looking into reports of Tesla’s robotaxis speeding through school zones",
+      "url": "https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation",
+      "source": "The Verge - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-13T17:40:15+00:00",
+      "excerpt": "The National Highway Traffic Safety Administration says it's evaluating allegations that Tesla's 1,000 or so robotaxis using its automated driving system are exceeding \"posted speed limits in active school zones.\" Waymo's robotaxis have also faced similar inquiries, including for illegally passing school buses and hitting a child near a California elementary school. NHTSA: The Office [&#8230;]",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "c5ac567737689d82",
       "title": "The feds are looking into reports of Tesla’s robotaxis speeding through school zones",
       "url": "https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation",
@@ -729,6 +971,25 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "0b284eb98b4575c8",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "excerpt": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "0a0c63a83af16095",
       "title": "NHTSA weighs probe into claims Tesla Robotaxis speed in school zones",
       "url": "https://electrek.co/2026/10/12/nhtsa-tesla-robotaxi-school-zone-speeding-petition/",
@@ -855,6 +1116,27 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "0a0c63a83af16095",
+      "title": "NHTSA weighs probe into claims Tesla Robotaxis speed in school zones",
+      "url": "https://electrek.co/2026/10/12/nhtsa-tesla-robotaxi-school-zone-speeding-petition/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-12T13:24:01+00:00",
+      "excerpt": "A new defect petition accuses Tesla’s Robotaxis of speeding through active school zones, and NHTSA has opened a file to decide whether to investigate. The agency puts the affected fleet at about 1,000 vehicles, Model Y and Cybercab. It’s the third federal action aimed at Tesla’s driverless fleet in about five weeks, after an audit query and a Special Order over how the Cybercab was certified. more…",
+      "company_ids": [
+        "tesla-robotaxi"
+      ],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "6f8358166e6c31de",
       "title": "TechCrunch Mobility: A roadblock clears for self-driving trucks",
       "url": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/",
@@ -988,6 +1270,44 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "6f8358166e6c31de",
+      "title": "TechCrunch Mobility: A roadblock clears for self-driving trucks",
+      "url": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-11T16:02:00+00:00",
+      "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "6149627e14ff487e",
+      "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
+      "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-09T16:07:26+00:00",
+      "excerpt": "The name change is enough for Germany's transport minister to start advocating for Europe-wide adoption of the driver assistance software.",
+      "company_ids": [],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "6149627e14ff487e",
       "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
       "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
@@ -1330,6 +1650,46 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "f11f2932927c215a",
+      "title": "Tesla drops ‘Full Self-Driving’ name in Europe after Germany pushback",
+      "url": "https://electrek.co/2026/10/09/tesla-fsd-renamed-tesla-assisted-driving-europe/",
+      "source": "Electrek",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-09T15:16:59+00:00",
+      "excerpt": "Tesla’s driver-assistance package is now called “Tesla Assisted Driving” in Europe. The company’s German website no longer mentions “Full Self-Driving,” and the old address now redirects to a new “Tesla Assisted Driving” page. The rename follows Germany’s Transport Ministry calling the FSD name misleading, and it’s part of a deal that has Berlin backing Tesla’s push for EU-wide approval. more…",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "d21a148938269254",
+      "title": "Waymo locks in $5B loan from Blackstone, PIMCO to fuel robotaxi expansion",
+      "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-08T14:16:56+00:00",
+      "excerpt": "This is the first time the Alphabet-owned company has turned to debt financing.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "d21a148938269254",
       "title": "Waymo locks in $5B loan from Blackstone, PIMCO to fuel robotaxi expansion",
       "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
@@ -1931,6 +2291,69 @@
         "pony-ai"
       ],
       "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "078af6edd3f6e680",
+      "title": "Uber and China’s Pony.ai plan to launch robotaxis in London",
+      "url": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/",
+      "source": "TechCrunch - Transportation",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-08T12:53:39+00:00",
+      "excerpt": "The two companies said on Thursday that they would begin testing Pony.ai's Gen-7 robotaxis in London in the coming weeks.",
+      "company_ids": [
+        "pony-ai"
+      ],
+      "source_weight": 4,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "45b002466d7b2b16",
+      "title": "Waymo Closes $5 Billion Debt Financing to Accelerate Business Expansion",
+      "url": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "excerpt": "Today, Waymo closed a $5 billion term loan, marking our first debt financing and an important step in our evolution into a scaling commercial enterprise.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "cd919508baa58bb6",
+      "title": "Sober Drivers Still Face Nearly 4x Nighttime Risk: Why Road Safety Demands a Safe System Approach",
+      "url": "https://waymo.com/blog/2026/10/sober-driving-benchmarks",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "excerpt": "Alcohol impairment remains a massive, critical crisis on public roads, directly contributing to over 30% of all traffic deaths in the U.S. Eliminating it is a mission we proudly support alongside long-standing partners like Mothers Against Drunk Driving (MADD). But our latest peer-reviewed research highlights a second, equally sobering truth that we cannot ignore: traffic fatalities rarely result from a single factor, and improving road safety requires examining conditions beyond driver behavior",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -2547,6 +2970,27 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "01227f076fa66cb1",
+      "title": "Preparing for the Unexpected: A New Framework for AV Incident Management Exercises",
+      "url": "https://waymo.com/blog/2026/10/incident-management-exercises",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "excerpt": "Every driver — human or autonomous — can encounter the unexpected. The best time to work out how to respond to an emergency is before it happens.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "01227f076fa66cb1",
@@ -4016,6 +4460,25 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
+      "id": "296e46630b71919a",
+      "title": "Can good design stop content creators from having sex in robotaxis?",
+      "url": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+      "source": "Ars Technica - Cars",
+      "category": "tech_media",
+      "lang": "en",
+      "published_at": "2026-10-01T19:19:42+00:00",
+      "excerpt": "Autonomous vehicle designers have to worry about riders getting frisky in public.",
+      "company_ids": [],
+      "source_weight": 3,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
+    },
+    {
       "id": "1c94c119cd05dd9d",
       "title": "Rivian: LiDAR R2 reaches customers in 2027, employees get it this year",
       "url": "https://electrek.co/2026/09/30/rivian-lidar-r2-customers-2027-autonomy-update/",
@@ -5660,6 +6123,27 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
+    },
+    {
+      "id": "fb2625112ae17ba9",
+      "title": "Our Vision for London: How Waymo can Support a Safer, Connected UK Capital",
+      "url": "https://waymo.com/blog/2026/09/visionforlondon",
+      "source": "Waymo Blog",
+      "category": "official",
+      "lang": "en",
+      "published_at": "2026-09-24T00:00:00+00:00",
+      "excerpt": "Waymo outlines its Vision for London, and why it believes the experience gained from fully autonomous operations across 15 major cities enables it to deliver tangible benefits for the city.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
+      "raw": {},
+      "title_zh": "",
+      "summary_zh": "",
+      "category_llm": "other",
+      "importance": 2,
+      "sentiment": "neutral",
+      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "fb2625112ae17ba9",
@@ -8164,16 +8648,18 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "51d144a11919205c",
-      "title": "XPeng shops its self-driving tech to automakers — Tesla found no takers",
-      "url": "https://electrek.co/2026/09/18/xpeng-license-self-driving-tech-automakers-tesla-fsd/",
-      "source": "Electrek",
-      "category": "tech_media",
+      "id": "5c54fafcf4b35101",
+      "title": "Introducing transit rewards",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards",
+      "source": "Waymo Blog",
+      "category": "official",
       "lang": "en",
-      "published_at": "2026-09-18T15:43:15+00:00",
-      "excerpt": "XPeng is trying to turn its self-driving and smart-cockpit systems into a licensing business, courting automakers, suppliers, and software firms well beyond its existing Volkswagen deal, according to a Reuters report. It’s the exact playbook Tesla has been pitching for years with “Full Self-Driving.” The difference is that XPeng is finding interest. more…",
-      "company_ids": [],
-      "source_weight": 3,
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "excerpt": "Today, Waymo is excited to announce our transit rewards program, which we will initially offer in the San Francisco Bay Area, with future cities to follow. This first-of-its-kind initiative rewards riders with Waymo Cash when they connect their Waymo rides with public transit and use their Visa card.",
+      "company_ids": [
+        "waymo"
+      ],
+      "source_weight": 5,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -8543,27 +9029,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "1c01993b54d32a1d",
-      "title": "Waymo says Singapore will be its next international robotaxi city",
-      "url": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-18T02:00:00+00:00",
-      "excerpt": "Waymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues to eye overseas markets for expansion. Waymo's vehicles will begin arriving in Singapore in \"the coming months,\" the company says, in preparation of mapping and autonomous testing with human safety drivers behind the wheel in 2027. Waymo says [&#8230;]",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "7062d9ab536be4eb",
       "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
       "url": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
@@ -8784,48 +9249,6 @@
       "excerpt": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
       "company_ids": [
         "zoox"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "7062d9ab536be4eb",
-      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
-      "url": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-17T23:08:24+00:00",
-      "excerpt": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
-      "company_ids": [
-        "zoox"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "210a82a9d289acdf",
-      "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
-      "url": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-17T18:30:30+00:00",
-      "excerpt": "The company suspended service in the city in April after one of its robotaxis got swept away.",
-      "company_ids": [
-        "waymo"
       ],
       "source_weight": 4,
       "raw": {},
@@ -9194,27 +9617,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "897c3468f648d9f4",
-      "title": "Your robotaxi might be a narc",
-      "url": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-17T15:00:00+00:00",
-      "excerpt": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Times. Police arrested the passengers after [&#8230;]",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "9775795da9aa9c7a",
       "title": "Lucid Motors has a potential robotaxi partner for Europe",
       "url": "https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/",
@@ -9396,44 +9798,6 @@
       "excerpt": "The company is partnering with mobility platform Bolt -- but no vehicle orders have been placed just yet.",
       "company_ids": [],
       "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "9775795da9aa9c7a",
-      "title": "Lucid Motors has a potential robotaxi partner for Europe",
-      "url": "https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-17T13:26:32+00:00",
-      "excerpt": "The company is partnering with mobility platform Bolt -- but no vehicle orders have been placed just yet.",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "02e4fab2be205db5",
-      "title": "Lucid and Bolt to deploy 25,000 autonomous EVs across Europe",
-      "url": "https://electrek.co/2026/09/17/lucid-bolt-25000-autonomous-evs-europe/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-17T12:56:46+00:00",
-      "excerpt": "Lucid and Bolt announced a partnership today to build and deploy autonomous vehicles across Europe, with the ride-hailing platform aiming to put at least 25,000 self-driving Lucid EVs on its network. It’s the second big autonomous-fleet deal Lucid has signed in just over a year. And it rides on a vehicle platform the company delayed six weeks ago. more…",
-      "company_ids": [],
-      "source_weight": 3,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -10372,27 +10736,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "b00d1115b56f2d3b",
-      "title": "Tesla brings Cybercab to China, rules out sale and robotaxi service",
-      "url": "https://electrek.co/2026/09/16/tesla-cybercab-china-display-no-sale-robotaxi/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-16T19:13:31+00:00",
-      "excerpt": "Tesla is putting its Cybercab on public display in China this week, but the company wants to be clear about one thing it isn’t: a vehicle it plans to sell there. Tesla China said the showcase “does not involve” selling the Cybercab in the Chinese market or launching a driverless ride-hailing service — even as China’s own robotaxi operators run paid rides at scale. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "949018f26fe3eaa9",
       "title": "Former Waymo CFO jumps to self-driving startup Wayve",
       "url": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
@@ -10589,47 +10932,6 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "949018f26fe3eaa9",
-      "title": "Former Waymo CFO jumps to self-driving startup Wayve",
-      "url": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-16T19:02:49+00:00",
-      "excerpt": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley.",
-      "company_ids": [
-        "waymo",
-        "wayve"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "86e01e41feb33adf",
-      "title": "May Mobility is going public in a $1.4B SPAC deal",
-      "url": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-16T15:27:13+00:00",
-      "excerpt": "The deal could net the asset-light robotaxi company more than $300 million in funding.",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-sonnet-4-6"
     },
     {
       "id": "86e01e41feb33adf",
@@ -10929,27 +11231,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "3710f8ae4865168b",
-      "title": "NHTSA orders Tesla to prove its Cybercab is legal to sell, under oath",
-      "url": "https://electrek.co/2026/09/15/nhtsa-tesla-cybercab-special-order-fmvss-certification/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-15T21:00:45+00:00",
-      "excerpt": "NHTSA has ordered Tesla to prove that its Cybercab is even legal to sell. The agency issued a formal Special Order on September 10 demanding that the company show, under oath, how a vehicle with no steering wheel, no pedals, and no mirrors complies with federal safety standards written for human drivers. Tesla has until September 30 to respond. Failing to answer fully and truthfully carries penalties of up to $139 million. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "ac665a70d80822c8",
       "title": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
       "url": "https://electrek.co/2026/09/15/tesla-four-fatal-driver-assist-crashes-july-2026/",
@@ -11062,46 +11343,6 @@
       "importance": 2,
       "sentiment": "neutral",
       "model_used": "claude-sonnet-4-6"
-    },
-    {
-      "id": "ac665a70d80822c8",
-      "title": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
-      "url": "https://electrek.co/2026/09/15/tesla-four-fatal-driver-assist-crashes-july-2026/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-15T14:05:06+00:00",
-      "excerpt": "July 2026 was the worst month on record for Tesla driver-assist crashes. Tesla reported 236 of them to federal regulators, the most it has ever filed in a single month. Four of those crashes killed someone. In every one, Tesla’s own data says Autopilot or “Full Self-Driving” was engaged, and in every one, the public was never told the system was involved. This is the latest from our ongoing investigation matching Tesla’s redacted NHTSA reports to real, named crashes. more…",
-      "company_ids": [],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-sonnet-4-6"
-    },
-    {
-      "id": "14e22eeaf5a45000",
-      "title": "Stark turns its 80 hp electric supermoto into a titanium-loaded blacked-out beast",
-      "url": "https://electrek.co/2026/09/15/stark-turns-its-80-hp-electric-supermoto-into-a-titanium-loaded-blacked-out-beast/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-15T13:33:09+00:00",
-      "excerpt": "Stark Future has already turned its ridiculously powerful electric dirt bike into a street-going supermoto – upon which I recently got to cruise the streets and cities around Barcelona (more on that experience coming soon). But now the company is taking that concept in an even darker direction with the new Stark VARG SM Sköll, a limited-edition, nearly completely blacked-out version of the 80 hp electric supermoto. more…",
-      "company_ids": [
-        "cruise"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
     },
     {
       "id": "14e22eeaf5a45000",
@@ -11923,27 +12164,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "04109e09e04113f8",
-      "title": "Tesla Cybercab turns 10-minute Austin trip into 70-minute detour",
-      "url": "https://electrek.co/2026/09/14/tesla-cybercab-70-minute-austin-detour/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-14T17:14:07+00:00",
-      "excerpt": "A Tesla Cybercab rider in Austin says a 10-minute trip turned into a 70-minute ordeal after the driverless taxi took a long detour across the city. The reason is a limitation Tesla still hasn’t solved. Its robotaxis can’t drive on highways, so a quick hop that a human would take up the freeway becomes a winding surface-street tour. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "d2e83745e3e80160",
       "title": "Waymo opens robotaxi service in Las Vegas",
       "url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
@@ -12059,48 +12279,6 @@
       "excerpt": "Las Vegas will be Waymo's 15th commercial robotaxi market.",
       "company_ids": [
         "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "d2e83745e3e80160",
-      "title": "Waymo opens robotaxi service in Las Vegas",
-      "url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-14T16:04:16+00:00",
-      "excerpt": "Las Vegas will be Waymo's 15th commercial robotaxi market.",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "e1d4d7fded377e94",
-      "title": "Volkswagen’s slippery new EV breaks a bunch of efficiency records",
-      "url": "https://www.theverge.com/transportation/994670/volkswagen-mission-efficiency-ev-aero-drag-record",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-14T15:12:09+00:00",
-      "excerpt": "No, that's not a Tesla Cybercab. That's Volkswagen's Mission Efficiency, the world's slipperiest electric vehicle. The near-production 2+2 seat electric coupe prototype was built on VW's MEB+ platform, incorporating front-wheel drive components from the upcoming ID. Polo and ID. Cross models. True to its name, the mission of Mission Efficiency is to break records. With [&#8230;]",
-      "company_ids": [
-        "tesla-robotaxi"
       ],
       "source_weight": 4,
       "raw": {},
@@ -13511,25 +13689,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "63dd370ce4ab6d06",
-      "title": "Zürich Airport deploys L4 autonomous shuttle – WITHOUT a human monitor",
-      "url": "https://electrek.co/2026/09/13/zurich-airport-deploys-l4-autonomous-shuttle-without-a-human-monitor/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-13T17:44:27+00:00",
-      "excerpt": "Zürich Airport has deployed not one but two fully automated electric shuttle buses on the grounds of Zürich Airport. Crucially, these self-driving vehicles are operating without a human safety monitor, making Zürich one of the first airports in Europe to test L4 autonomy in a live environment. more…",
-      "company_ids": [],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "8dd5fbf0fb91960c",
       "title": "TechCrunch Mobility: Lyft has entered the robotaxi chat",
       "url": "https://techcrunch.com/2026/09/13/techcrunch-mobility-lyft-has-entered-the-robotaxi-chat/",
@@ -13634,46 +13793,6 @@
       "published_at": "2026-09-13T16:04:00+00:00",
       "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation, and now, more than ever, the role AI is playing in it.",
       "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "8dd5fbf0fb91960c",
-      "title": "TechCrunch Mobility: Lyft has entered the robotaxi chat",
-      "url": "https://techcrunch.com/2026/09/13/techcrunch-mobility-lyft-has-entered-the-robotaxi-chat/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-13T16:04:00+00:00",
-      "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation, and now, more than ever, the role AI is playing in it.",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "a195e107fc6aa966",
-      "title": "Waymo pulls over, calls cops on riders with a ghost gun",
-      "url": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-13T14:28:12+00:00",
-      "excerpt": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them. The riders were juveniles in possession of a loaded AR-style ghost gun and were taken to a juvenile hall. While the police report did not specify who was operating the [&#8230;]",
-      "company_ids": [
-        "waymo"
-      ],
       "source_weight": 4,
       "raw": {},
       "title_zh": "",
@@ -13785,46 +13904,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "ed60bc70cf720c35",
-      "title": "Your car is selling your data",
-      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-      "source": "The Verge - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-13T12:00:00+00:00",
-      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Earlier this year, the Federal Trade Commission [&#8230;]",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "baf5c193b5ad17b9",
-      "title": "Musk promotes blatant Tesla FSD misuse as crash lawyers rejoice",
-      "url": "https://electrek.co/2026/09/11/musk-promotes-tesla-fsd-misuse-98-year-old/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-11T18:19:50+00:00",
-      "excerpt": "Elon Musk is once again promoting the misuse of Tesla’s “Full Self-Driving” (FSD), this time by amplifying a video of a 98-year-old man who openly admits he has stopped watching the road. The clip is charming. It’s also a textbook example of the exact driver behavior Tesla’s lawyers are fighting in a growing pile of crash lawsuits. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-sonnet-4-6"
-    },
-    {
       "id": "baf5c193b5ad17b9",
       "title": "Musk promotes blatant Tesla FSD misuse as crash lawyers rejoice",
       "url": "https://electrek.co/2026/09/11/musk-promotes-tesla-fsd-misuse-98-year-old/",
@@ -13938,48 +14017,6 @@
       "lang": "en",
       "published_at": "2026-09-11T17:24:39+00:00",
       "excerpt": "A pre-production Tesla Cybercab was spotted parked on a street in Berkeley, California, and it gives us the clearest look yet at how Tesla puts a steering wheel into a car it designed to have none. The photos, shared with Electrek by reader Adam Machacek, show a Cybertruck steering wheel mounted on an exposed steering column that has been bolted into the two-seat robotaxi. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "5e97dc9efbb42d17",
-      "title": "First look at Tesla Cybercab’s steering: a Cybertruck wheel bolted on",
-      "url": "https://electrek.co/2026/09/11/tesla-cybercab-steering-wheel-assembly-first-look/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-11T17:24:39+00:00",
-      "excerpt": "A pre-production Tesla Cybercab was spotted parked on a street in Berkeley, California, and it gives us the clearest look yet at how Tesla puts a steering wheel into a car it designed to have none. The photos, shared with Electrek by reader Adam Machacek, show a Cybertruck steering wheel mounted on an exposed steering column that has been bolted into the two-seat robotaxi. more…",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "cf5e314b9200ada4",
-      "title": "Congressman presses DOT on Tesla FSD after 43 sleeping-driver videos",
-      "url": "https://electrek.co/2026/09/10/congressman-dot-tesla-fsd-sleeping-drivers/",
-      "source": "Electrek",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-10T15:48:13+00:00",
-      "excerpt": "A US congressman is demanding the Department of Transportation explain what it’s doing about Tesla’s Autopilot and Full Self-Driving after an NBC News investigation surfaced dozens of videos of drivers apparently asleep at the wheel. Rep. Raja Krishnamoorthi gave Transportation Secretary Sean Duffy until September 30 to answer five questions about the systems, which Tesla itself says “require active driver supervision and are not autonomous driving systems.” more…",
       "company_ids": [
         "tesla-robotaxi"
       ],
@@ -17123,25 +17160,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "5325508b04b86470",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "source": "TechCrunch - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-06T16:45:00+00:00",
-      "excerpt": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "5ab91582f4231a20",
       "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
       "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
@@ -17373,27 +17391,6 @@
       "model_used": "claude-haiku-4-5-20251001"
     },
     {
-      "id": "5ab91582f4231a20",
-      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
-      "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
-      "source": "Ars Technica - Cars",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-09-05T15:17:36+00:00",
-      "excerpt": "The US government is investigating whether the Cybercab meets vehicle safety standards.",
-      "company_ids": [
-        "tesla-robotaxi"
-      ],
-      "source_weight": 3,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
       "id": "4b9ea14ff0645823",
       "title": "Inside the Brain of a Self-Driving Car: How Motional and MIT are Cracking Open the Black Box of AI",
       "url": "https://motional.com/news/inside-brain-self-driving-car-how-motional-and-mit-are-cracking-open-black-box-ai",
@@ -21105,27 +21102,6 @@
         "waymo"
       ],
       "source_weight": 5,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "3236bfa81e621a80",
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-      "source": "Ars Technica - Cars",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-08-21T13:11:35+00:00",
-      "excerpt": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
-      "company_ids": [
-        "waymo"
-      ],
-      "source_weight": 3,
       "raw": {},
       "title_zh": "",
       "summary_zh": "",
@@ -31186,25 +31162,6 @@
       "lang": "en",
       "published_at": "2026-03-25T19:00:05+00:00",
       "excerpt": "This is a sponsored article brought to you by General Motors. Visit their new Engineering Blog for more insights. Autonomous driving is one of the most demanding problems in physical AI. An automated system must interpret a chaotic, ever-changing world in real time—navigating uncertainty, predicting human behavior, and operating safely across an immense range of environments and edge cases. At General Motors, we approach this problem from a simple premise: while most moments on the road are pred",
-      "company_ids": [],
-      "source_weight": 4,
-      "raw": {},
-      "title_zh": "",
-      "summary_zh": "",
-      "category_llm": "other",
-      "importance": 2,
-      "sentiment": "neutral",
-      "model_used": "claude-haiku-4-5-20251001"
-    },
-    {
-      "id": "7e1ede54dfad992e",
-      "title": "Waabi’s Raquel Urtasun on Level-4 Autonomous Trucks",
-      "url": "https://spectrum.ieee.org/level-4-autonomous-trucks",
-      "source": "IEEE Spectrum - Transportation",
-      "category": "tech_media",
-      "lang": "en",
-      "published_at": "2026-03-13T13:01:02+00:00",
-      "excerpt": "Raquel Urtasun has spent 16 years in the self-driving space , long enough to navigate every metaphorical glorious hill and plunging valley . She took the trip from the early “pipe dream” dismissals to the “we’re this close” certainty and back again. The industry is now riding a new wave of optimism and investment, including at Waabi Innovation Inc. , the autonomous trucking company that Urtasun founded in 2021. The Spanish-Canadian professor at the University of Toronto , and former chief scient",
       "company_ids": [],
       "source_weight": 4,
       "raw": {},
